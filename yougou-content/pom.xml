@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>yougou-parent</artifactId>
+        <groupId>com.yougou</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../yougou-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>yougou-content</artifactId>
+    <packaging>pom</packaging>
+
+    <name>yougou-content</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>yougou-content-interface</module>
+        <module>yougou-content-service</module>
+    </modules>
+    <!-- 添加依赖 -->
+    <dependencies>
+        <!-- 依赖与common子模块 -->
+        <dependency>
+            <groupId>com.yougou</groupId>
+            <artifactId>yougou-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <!-- 添加tomcat插件 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8083</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
