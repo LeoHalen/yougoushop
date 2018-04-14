@@ -15,6 +15,9 @@
         <module name="yougou-manager-service" />
         <module name="yougou-manager-web" />
         <module name="yougou-portal-web" />
+        <module name="yougou-search-interface" />
+        <module name="yougou-search-service" />
+        <module name="yougou-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +33,10 @@
       <module name="yougou-manager-web" target="1.7" />
       <module name="yougou-parent" target="1.7" />
       <module name="yougou-portal-web" target="1.7" />
+      <module name="yougou-search" target="1.7" />
+      <module name="yougou-search-interface" target="1.7" />
+      <module name="yougou-search-service" target="1.7" />
+      <module name="yougou-search-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
