@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yougou-common" />
+        <module name="yougou-content-interface" />
+        <module name="yougou-content-service" />
+        <module name="yougou-manager-interface" />
+        <module name="yougou-manager-mapper" />
+        <module name="yougou-manager-pojo" />
+        <module name="yougou-manager-service" />
+        <module name="yougou-manager-web" />
+        <module name="yougou-portal-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yougou-common" target="1.7" />
+      <module name="yougou-content" target="1.7" />
+      <module name="yougou-content-interface" target="1.7" />
+      <module name="yougou-content-service" target="1.7" />
+      <module name="yougou-manager" target="1.7" />
+      <module name="yougou-manager-interface" target="1.7" />
+      <module name="yougou-manager-mapper" target="1.7" />
+      <module name="yougou-manager-pojo" target="1.7" />
+      <module name="yougou-manager-service" target="1.7" />
+      <module name="yougou-manager-web" target="1.7" />
+      <module name="yougou-parent" target="1.7" />
+      <module name="yougou-portal-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
