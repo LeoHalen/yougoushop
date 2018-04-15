@@ -29,3 +29,16 @@ DEBUG快捷键
     DEL KEY             删除key
     KEYS *              查询所有key
     
+4、solr
+    
+    Request-Handler(qt) select查询操作
+    q(query)            查询条件，key:value 形式，只能满足简单的查询
+    fq(filter query)    过滤条件。对q的补充，实现复杂的查询。如：product_price:[10.0 TO 20.0] 表示价格在10~20之间。" * " 表示无限，[ * TO 20.0] 表示小于20.0
+    sort                对查询结果排序。如：product_price desc 表示价格降序
+    start,rows          开始页数，和每页多少条，简称页码
+    fl(field list)      指定那些字段有返回值。多个值用","分隔。如：product_catalog_name,product_name,product_price
+    df(default field)   默认域，当q查询没有key的时候，发挥作用
+    wt(write type)      输出格式，一般都是json
+    hl(high light)      高亮
+    
+    

@@ -21,13 +21,13 @@
             <artifactId>yougou-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!-- 依赖与interface子模块 -->
+        <!-- 依赖与manager-interface子模块 -->
         <dependency>
             <groupId>com.yougou</groupId>
             <artifactId>yougou-manager-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!-- 依赖与pojo子模块 -->
+        <!-- 依赖与manager-pojo子模块 -->
         <dependency>
             <groupId>com.yougou</groupId>
             <artifactId>yougou-manager-pojo</artifactId>
@@ -37,6 +37,12 @@
         <dependency>
             <groupId>com.yougou</groupId>
             <artifactId>yougou-content-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 依赖与search-interface子模块 -->
+        <dependency>
+            <groupId>com.yougou</groupId>
+            <artifactId>yougou-search-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- Spring -->

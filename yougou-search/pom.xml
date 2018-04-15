@@ -13,7 +13,7 @@
     <artifactId>yougou-search</artifactId>
     <packaging>pom</packaging>
 
-    <name>Maven Portlet Archetype</name>
+    <name>yougou-search</name>
     <url>http://maven.apache.org</url>
     <modules>
         <module>yougou-search-interface</module>

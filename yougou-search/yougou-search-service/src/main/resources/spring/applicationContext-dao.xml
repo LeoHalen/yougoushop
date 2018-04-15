@@ -41,13 +41,10 @@
                 </bean>
             </array>
         </property>
-        <!--
-        <property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
-        -->
     </bean>
     <!-- Mapper映射文件的包扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.yougou.mapper" />
+        <property name="basePackage" value="com.yougou.mapper,com.yougou.search.mapper" />
     </bean>
 
 </beans>

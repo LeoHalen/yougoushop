@@ -13,7 +13,7 @@
     <artifactId>yougou-search-web</artifactId>
     <packaging>war</packaging>
 
-    <name>yougou-search-web Maven Webapp</name>
+    <name>yougou-search-web</name>
     <url>http://maven.apache.org</url>
 
     <properties>
