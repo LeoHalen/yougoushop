@@ -8,7 +8,11 @@
 
 2、IDEA  快捷键
 
-ctrl+alt+t 快捷键：try/catch
+    ctrl+alt+t  快捷键: try/catch
+    ctrl+p      快捷键: 可以用来查看现有已经调用的方法中所需要的参数。
+    ctrl+o      快捷键: 可以用来调用一些可以重新override的方法。
+    alt+insert  快捷键: 快速调用一些方法，例如get和set等，override也可以在这里调用。
+    alt+shift+/ 快捷键: 可以将选中的代码注释掉，布局文件中使用很方便。
 
 DEBUG快捷键
 
@@ -41,4 +45,8 @@ DEBUG快捷键
     wt(write type)      输出格式，一般都是json
     hl(high light)      高亮
     
-    
+5、Linux命令
+
+    echo 2 > data/myid      将2写入到myid文件中，没有myid文件自动创建
+    iptables -L -n          Linux 查看端口号开放情况
+    netstat -apn | grep 80  查看端口占用情况

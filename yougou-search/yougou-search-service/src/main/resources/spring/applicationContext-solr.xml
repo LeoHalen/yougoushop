@@ -5,7 +5,7 @@
 
     <!--配置单机版Solr-->
     <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
-        <constructor-arg name="baseURL" value="http://192.168.58.145:8080/solr/collection01"/>
+        <constructor-arg name="baseURL" value="http://192.168.58.145:8080/solr/collection02"/>
     </bean>
     <!-- 集群版Solr连接 -->
    <!-- <bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
