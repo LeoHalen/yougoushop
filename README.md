@@ -69,7 +69,7 @@ Nginx是一款高性能的http服务器/反向代理服务器及电子邮件（I
 FastDFS是一个开源的轻量级分布式文件系统，功能包括：文件存储、文件同步、文件访问（文件上传、文件下载）等，解决了大容量存储和负载均衡的问题。特别适合中小文件（建议范围：4KB < file_size <500MB），对以文件为载体的在线服务，如相册网站、视频网站等。
 ### Redis
 Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。
-具体使用可以看[走进Redis：Redis的安装、使用以及集群的搭建](http://catalinali.top/2017/buildredis/)
+具体使用可以看[走进Redis：Redis的安装、使用以及集群的搭建](https://blog.csdn.net/halen001/article/details/79918911)
 ### 搜索应用服务器Solr
 Solr是一个独立的企业级搜索应用服务器，它对外提供类似于Web-service的API接口。用户可以通过http请求，向搜索引擎服务器提交一定格式的XML文件，生成索引；也可以通过Http Get操作提出查找请求，并得到XML格式的返回结果。
 ### 消息服务Activemq
