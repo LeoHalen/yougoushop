@@ -1,4 +1,18 @@
-dubbo服务器:
+192.168.58.133 图片服务器说明：
+==================================================================
+ FastDFS:
+ 
+    tracker启动：/usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf
+    storage启动：/usr/bin/fdfs_storaged /etc/fdfs/storage.conf
+ Nginx:
+ 
+    nginx启动：/usr/local/nginx/sbin/./nginx
+    nginx关闭：/usr/local/nginx -s stop
+    nginx刷新配置：/usr/local/nginx -s reload
+
+192.168.58.143 dubbo服务器说明：
+==================================================================
+dubbo:
 
     1、单机版启动zookeeper:
     启动：/home/zookeeper-3.4.11/bin/zkServer.sh start
@@ -9,7 +23,9 @@ dubbo服务器:
     启动：/home/
     查看日志启动：tail -f logs/catalina.out
 
-------------------------------------------------------------------------
+
+192.168.58.144 redis服务器说明：
+==================================================================
 redis:
 
     目录：/usr/local/redis
@@ -24,24 +40,24 @@ redis集群:
 
 
 
-192.168.58.145服务器说明：
+192.168.58.145 solr服务器说明：
 ==================================================================
-介绍：服务器：192.168.58.145
+介绍：
 
     单机版solr位置（目录下1台tomcat）：/usr/local/solr
     集群版solr位置(目录下4台tomcat、3台zookeeper)：/usr/local/solr-cloud
 
-单机solr:服务器：192.168.58.145
+单机solr:
 
     1、启动tomcat：/usr/local/solr/apache-tomcat-8.5.30/bin/startup.sh
     2、访问地址：http://192.168.58.145:8080/solr/index.html
-集群zookeeper：服务器：192.168.58.145
+集群zookeeper：
 
     启动：/usr/local/solr-cloud/start-zookeeper.sh
     查看zookeeper01状态：./zookeeper01/bin/zkServer.sh status
     查看zookeeper01状态：......
     ......
-集群solr:服务器：192.168.58.145
+集群solr:服务器：
 
     3个zookeeper端口设置：
     zookeeper01：2181

@@ -47,6 +47,60 @@ DEBUG快捷键
     
 5、Linux命令
 
-    echo 2 > data/myid      将2写入到myid文件中，没有myid文件自动创建
-    iptables -L -n          Linux 查看端口号开放情况
-    netstat -apn | grep 80  查看端口占用情况
+    #echo 2 > data/myid         将2写入到myid文件中，没有myid文件自动创建
+    #iptables -L -n             Linux 查看端口号开放情况
+    #netstat -apn | grep 80     查看端口占用情况
+    #vi /etc/hosts,
+    #vi/etc/sysconfig/network   修改HOSTNAME一行为"HOSTNAME=主机名"(没有这行？那就添加这一行吧)，然后运行命令"hostname 主机名"
+    #uname -r                   查看内核版本
+    #more /proc/version         查看内核版本号文件
+    #/etc/issue                 查看发行版版本号
+    #cat /etc/xxx-release       XX为发行版名称
+    #reboot                     重启
+    #shutdown -h                快速关机(halt就是调用前者来关机的)
+    #mkdir -p                   递归创建多层文件夹(-p递归参数)
+    #touch                      创建文件
+    #more /var/log/messages     使用more查看系统日志
+    #cp -r                      递归复制
+    #scp                        将linux A主机文件复制到linux B主机中
+      例#scp /home/administrator/news.txt 将本机文件复制到远程服务器上
+    #locale                     修改linux默认编码格式
+    #LANG=CC                    修改编码格式为ASCII码  
+    
+vi/vim命令
+
+    i           光标前插入
+    a           光标后插入
+    o           在光标所在行下插入一行
+    x           删除一个字符
+    nx          删除n个字符
+    dd          删除当前行
+    ndd         删除当前行到第n行
+    u           撤销
+    yw          将光标所在之处到字尾的字符复制到缓冲区中。
+    nyw         复制#个字到缓冲区。
+    yy          复制光标所在行到缓冲区。
+    nyy         例如，「6yy」表示拷贝从光标所在的该行“往下数”6行文字。
+    
+其它命令
+    
+    #ps                                             查看进程
+    #ps -ef                                         查看所有进程
+    #ps -l                                          查看当前所连接的终端
+    #ps aux                                         内存中所在进程
+    #tar -cvf /opt/network.tar network              打压缩包
+    #tar -zxvf /opt/network.tar                     解压缩包
+    #tail -f                                        查看日志文件
+    #find -name                                     要查找路径  -name  文件名
+    #vi /etc/sysconfig/network-scripts/ifcfg-eth0   修改网卡地址
+    #system-config-network-tui                      图形界面下配置网卡方式
+    #service network restart                        重启网卡命令
+    #vim /etc/resolv.conf                           配置dns地址
+    #yum clean all
+    #yum install list
+    #yum install                                    需要装的软件包名
+    #rpm -p                                         软件包名（测试上一步软件包是否安装成功）
+   
+6、windows
+
+    $jar -cvf ../项目名称.war *.*                    window 打war包
