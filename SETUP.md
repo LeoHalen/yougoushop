@@ -20,7 +20,7 @@ redis:
 redis集群:
 
     启动：/usr/local/redis-cluster/start-all.sh
-==================================================================
+-----------------------------------------------------------------------
 
 
 
@@ -35,14 +35,12 @@ redis集群:
 
     1、启动tomcat：/usr/local/solr/apache-tomcat-8.5.30/bin/startup.sh
     2、访问地址：http://192.168.58.145:8080/solr/index.html
------------------------------------------------------------------------
 集群zookeeper：服务器：192.168.58.145
 
     启动：/usr/local/solr-cloud/start-zookeeper.sh
     查看zookeeper01状态：./zookeeper01/bin/zkServer.sh status
     查看zookeeper01状态：......
     ......
------------------------------------------------------------------------
 集群solr:服务器：192.168.58.145
 
     3个zookeeper端口设置：
