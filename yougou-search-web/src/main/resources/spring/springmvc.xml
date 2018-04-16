@@ -19,6 +19,8 @@
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	<!-- 配置全局异常处理器 -->
+	<bean class="com.yougou.search.exception.GlobalExceptionResolver"></bean>
 	<!-- 配置包扫描器，扫描@Controller注解的类 -->
 	<context:component-scan base-package="com.yougou.search.controller"/>
 	<!-- 引用dubbo服务 -->

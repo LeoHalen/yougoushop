@@ -76,6 +76,7 @@ solr集群(SolrCloud)操作命令：
         退出连接：quit
         查看/下文件：ls /
         查看上传的配置文件：ls /configs/myconf
+        上传配置文件至zookeeper的命令：.zkcli.sh -zkhost 192.168.58.145:2181,192.168.58.145:2182,192.168.58.145:2183 -cmd upconfig -confdir /usr/local/solr-cloud/solrhome01/collection03/conf/ -confname myconf
     控制台（浏览器地址栏）：
         创建Collection    http://192.168.58.145:8180/solr/admin/collections?action=CREATE&name=collection3&numShards=2&replicationFactor=2
         删除Collection    http://192.168.58.145:8180/solr/admin/collections?action=DELETE&name=collection1

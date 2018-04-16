@@ -34,12 +34,8 @@ public class SearchController {
 	@RequestMapping("search")
 	public String search(@RequestParam("q")String queryString,
 						 @RequestParam(defaultValue = "1")Integer page,
-						 Model model){
-		try {
-			queryString = new String(queryString.getBytes("ISO8859-1"), "UTF-8");
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		}
+						 Model model) throws Exception{
+		queryString = new String(queryString.getBytes("ISO8859-1"), "UTF-8");
 		//调用服务执行查询
 		SearchResult searchResult = searchService.search(queryString, page, SEARCH_RESULT_ROWS);
 		//将结果传给页面

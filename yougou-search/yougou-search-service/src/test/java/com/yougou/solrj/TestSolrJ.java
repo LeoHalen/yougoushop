@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * java类简单作用描述
+ * 单机solr测试类
  *
  * @ProjectName: yougoushop
  * @Package: com.yougou.solrj

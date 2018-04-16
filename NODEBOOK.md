@@ -53,6 +53,8 @@ DEBUG快捷键
     #netstat -apn | grep 80     查看端口占用情况
     #vi /etc/hosts,
     #vi/etc/sysconfig/network   修改HOSTNAME一行为"HOSTNAME=主机名"(没有这行？那就添加这一行吧)，然后运行命令"hostname 主机名"
+    #vi /etc/sysconfig/iptables 修改防火墙配置
+    #service iptables restart   重启防火墙服务
     #uname -r                   查看内核版本
     #more /proc/version         查看内核版本号文件
     #/etc/issue                 查看发行版版本号
