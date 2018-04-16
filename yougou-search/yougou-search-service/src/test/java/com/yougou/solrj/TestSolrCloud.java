@@ -22,7 +22,7 @@ public class TestSolrCloud {
 		//创建一个CloudSolrServer对象，构造方法中需要制定zookeeper的地址列表
 		CloudSolrServer cloudSolrServer = new CloudSolrServer("192.168.58.145:2181,192.168.58.145:2182,192.168.58.145:2183");
 		//需要设置默认的Collection
-		cloudSolrServer.setDefaultCollection("collection1");
+		cloudSolrServer.setDefaultCollection("cores");
 		//创建一个文档对象
 		SolrInputDocument document = new SolrInputDocument();
 		//向文档中添加域

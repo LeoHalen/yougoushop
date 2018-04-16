@@ -84,3 +84,16 @@ tomcat集群启动：
 
     /usr/local/solr-cloud/start-tomcat.sh       批处理文件启动
     /usr/local/solr-cloud/shutdown-tomcat.sh    批处理文件关闭
+    
+    
+192.168.58.146 ActiveMQ服务器说明：
+==================================================================
+单机ActiveMQ：
+    
+    启动(前端)：/usr/local/apache-activemq-5.15.3/bin/activemq console
+    启动(后端)：/usr/local/apache-activemq-5.15.3/bin/activemq start
+    关闭(后端)：/usr/local/apache-activemq-5.15.3/bin/activemq stop
+    重启：/usr/local/apache-activemq-5.15.3/bin/activemq restart
+    地址：http://192.168.58.146:8161/admin/
+    登录用户名：admin
+    密码：admin

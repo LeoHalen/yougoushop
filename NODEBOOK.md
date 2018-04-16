@@ -96,6 +96,7 @@ vi/vim命令
     #tail -f                                        查看日志文件
     #find -name                                     要查找路径  -name  文件名
     #vi /etc/sysconfig/network-scripts/ifcfg-eth0   修改网卡地址
+    #vi /etc/udev/rules.d/70-persistent-net.rules   修改网卡信息
     #system-config-network-tui                      图形界面下配置网卡方式
     #service network restart                        重启网卡命令
     #vim /etc/resolv.conf                           配置dns地址
