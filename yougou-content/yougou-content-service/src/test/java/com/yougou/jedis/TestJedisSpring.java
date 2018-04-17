@@ -1,6 +1,5 @@
 package com.yougou.jedis;
 
-import com.yougou.jedis.service.impl.JedisClient;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

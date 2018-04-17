@@ -1,4 +1,4 @@
-package com.yougou.jedis.service.impl;
+package com.yougou.jedis;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;

@@ -6,7 +6,7 @@ import com.yougou.common.pojo.EasyUIDataGridResult;
 import com.yougou.common.pojo.YougouResult;
 import com.yougou.common.utils.JsonUtils;
 import com.yougou.content.service.ContentService;
-import com.yougou.jedis.service.impl.JedisClient;
+import com.yougou.jedis.JedisClient;
 import com.yougou.mapper.TbContentMapper;
 import com.yougou.pojo.TbContent;
 import com.yougou.pojo.TbContentExample;

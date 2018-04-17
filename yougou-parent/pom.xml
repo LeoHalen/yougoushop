@@ -36,7 +36,7 @@
     <zookeeper.version>3.4.7</zookeeper.version>
     <zkclient.version>0.1</zkclient.version>
     <activemq.version>5.15.3</activemq.version>
-    <freemarker.version>2.3.23</freemarker.version>
+    <freemarker.version>2.3.28</freemarker.version>
     <quartz.version>2.2.2</quartz.version>
     <portlet-api.version>3.0.0</portlet-api.version>
   </properties>

@@ -12,15 +12,6 @@
     <!-- 加载配置文件 -->
     <context:property-placeholder location="classpath:properties/*.properties" />
     <!-- 数据库连接池 -->
-   <!-- <pojo id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
-          destroy-method="close">
-        <property name="url" value="${jdbc.url}" />
-        <property name="username" value="${jdbc.username}" />
-        <property name="password" value="${jdbc.password}" />
-        <property name="driverClassName" value="${jdbc.driver}" />
-        <property name="maxActive" value="10" />
-        <property name="minIdle" value="5" />
-    </pojo>-->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="username" value="${jdbc.userName}"></property>
         <property name="password" value="${jdbc.password}"></property>

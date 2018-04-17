@@ -1,4 +1,4 @@
-package com.yougou.jedis.service.impl;
+package com.yougou.jedis;
 
 public interface JedisClient {
 

@@ -5,13 +5,17 @@ import com.github.pagehelper.PageInfo;
 import com.yougou.common.pojo.EasyUIDataGridResult;
 import com.yougou.common.pojo.YougouResult;
 import com.yougou.common.utils.IDUtils;
+import com.yougou.common.utils.JsonUtils;
+import com.yougou.jedis.JedisClient;
 import com.yougou.mapper.TbItemDescMapper;
 import com.yougou.mapper.TbItemMapper;
 import com.yougou.pojo.TbItem;
 import com.yougou.pojo.TbItemDesc;
 import com.yougou.pojo.TbItemExample;
 import com.yougou.service.ItemService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
@@ -33,10 +37,36 @@ public class ItemServiceImpl implements ItemService {
 	private JmsTemplate jmsTemplate;
    	@Resource(name = "itemAddTopic")
 	private Destination destination;
+   	@Autowired
+    private JedisClient jedisClient;
+   	@Value("${ITEM_INFO}")
+    private String ITEM_INFO;
+   	@Value("${ITEM_EXPIRE}")
+    private Integer ITEM_EXPIRE;
 
     public TbItem getItemById(long itemId) {
-        TbItem item = itemMapper.selectByPrimaryKey(itemId);
-        return item;
+        try {
+            //查询数据库之前先查询缓存
+            String json = jedisClient.get(ITEM_INFO);
+            if (StringUtils.isNotBlank(json)) {
+                //把json数据转换成pojo
+                TbItem tbItem = JsonUtils.jsonToPojo(json, TbItem.class);
+                return tbItem;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        //缓存中没有查询数据库
+        TbItem tbItem = itemMapper.selectByPrimaryKey(itemId);
+        try {
+            //把结果添加到缓存
+            jedisClient.set(ITEM_INFO + ":" + itemId +":BASE",JsonUtils.objectToJson(tbItem));
+            //设置过期时间，提高缓存利用率
+            jedisClient.expire(ITEM_INFO, ITEM_EXPIRE);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return tbItem;
     }
 
     @Override
@@ -91,7 +121,27 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public TbItemDesc getItemDescById(long itemId) {
+        try {
+            //查询数据库之前先查询缓存
+            String json = jedisClient.get(ITEM_INFO);
+            if (StringUtils.isNotBlank(json)) {
+                //把json数据转换成pojo
+                TbItemDesc tbItemDesc = JsonUtils.jsonToPojo(json, TbItemDesc.class);
+                return tbItemDesc;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        //缓存中没有查询数据库
         TbItemDesc tbItemDesc = itemDescMapper.selectByPrimaryKey(itemId);
+        try {
+            //把结果添加到缓存
+            jedisClient.set(ITEM_INFO + ":" + itemId +":DESC",JsonUtils.objectToJson(tbItemDesc));
+            //设置过期时间，提高缓存利用率
+            jedisClient.expire(ITEM_INFO, ITEM_EXPIRE);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return tbItemDesc;
     }
 
