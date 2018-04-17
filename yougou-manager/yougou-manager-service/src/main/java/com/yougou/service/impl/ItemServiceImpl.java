@@ -89,5 +89,11 @@ public class ItemServiceImpl implements ItemService {
         return YougouResult.ok();
     }
 
+    @Override
+    public TbItemDesc getItemDescById(long itemId) {
+        TbItemDesc tbItemDesc = itemDescMapper.selectByPrimaryKey(itemId);
+        return tbItemDesc;
+    }
+
 
 }

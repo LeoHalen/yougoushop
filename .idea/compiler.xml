@@ -9,6 +9,7 @@
         <module name="yougou-common" />
         <module name="yougou-content-interface" />
         <module name="yougou-content-service" />
+        <module name="yougou-item-web" />
         <module name="yougou-manager-interface" />
         <module name="yougou-manager-mapper" />
         <module name="yougou-manager-pojo" />
@@ -25,6 +26,7 @@
       <module name="yougou-content" target="1.7" />
       <module name="yougou-content-interface" target="1.7" />
       <module name="yougou-content-service" target="1.7" />
+      <module name="yougou-item-web" target="1.7" />
       <module name="yougou-manager" target="1.7" />
       <module name="yougou-manager-interface" target="1.7" />
       <module name="yougou-manager-mapper" target="1.7" />
