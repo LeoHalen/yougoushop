@@ -5,7 +5,7 @@ import com.yougou.common.pojo.SearchItem;
 import java.util.List;
 
 /**
- * java类简单作用描述
+ * 同步索引库数据库操作接口
  *
  * @ProjectName: yougoushop
  * @Package: com.yougou.search.mapper
@@ -18,4 +18,5 @@ import java.util.List;
 public interface SearchItemMapper {
 
     List<SearchItem> getItemList();
+    SearchItem getItemById(long itemId);
 }

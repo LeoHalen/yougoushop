@@ -35,7 +35,7 @@
     <dubbo.version>2.5.3</dubbo.version>
     <zookeeper.version>3.4.7</zookeeper.version>
     <zkclient.version>0.1</zkclient.version>
-    <activemq.version>5.11.2</activemq.version>
+    <activemq.version>5.15.3</activemq.version>
     <freemarker.version>2.3.23</freemarker.version>
     <quartz.version>2.2.2</quartz.version>
     <portlet-api.version>3.0.0</portlet-api.version>
@@ -220,6 +220,16 @@
         <groupId>org.apache.activemq</groupId>
         <artifactId>activemq-all</artifactId>
         <version>${activemq.version}</version>
+        <!--<exclusions>
+          <exclusion>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+          </exclusion>
+        </exclusions>-->
       </dependency>
       <dependency>
         <groupId>org.freemarker</groupId>
