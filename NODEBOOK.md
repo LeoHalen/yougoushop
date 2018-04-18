@@ -69,6 +69,7 @@ DEBUG快捷键
       例#scp /home/administrator/news.txt 将本机文件复制到远程服务器上
     #locale                     修改linux默认编码格式
     #LANG=CC                    修改编码格式为ASCII码  
+    #chkconfig iptables off     永久关闭防火墙
     
 vi/vim命令
 
@@ -84,6 +85,9 @@ vi/vim命令
     nyw         复制#个字到缓冲区。
     yy          复制光标所在行到缓冲区。
     nyy         例如，「6yy」表示拷贝从光标所在的该行“往下数”6行文字。
+    shit+v      进入行选择模式
+    y           复制
+    p           粘贴
     
 其它命令
     

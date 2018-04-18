@@ -21,6 +21,10 @@
 	</bean>
 	<!-- 配置包扫描器，扫描@Controller注解的类 -->
 	<context:component-scan base-package="com.yougou.item.controller"/>
+	<bean id="freeMarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<property name="templateLoaderPath" value="/WEB-INF/ftl"/>
+		<property name="defaultEncoding" value="utf-8"/>
+	</bean>
 	<!-- 引用dubbo服务 -->
 	<dubbo:application name="yougou-item-web"/>
 	<dubbo:registry protocol="zookeeper" address="192.168.58.143:2181"/>

@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>测试页面</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
 	学生信息：<br>
@@ -19,9 +20,9 @@
 		</tr>
 		<#list stuList as stu>
 		<#if stu_index%2==0>
-		<tr bgcolor="red">
+		<tr bgcolor="yellow">
 		<#else>
-		<tr bgcolor="blue">
+		<tr bgcolor="green">
 		</#if>
 			<td>${stu_index}</td>
 			<td>${stu.id}</td>
@@ -33,17 +34,17 @@
 	</table>
 	<br>
 	日期类型的处理：${date?string("yyyy/MM/dd HH:mm:ss")}
-	<br>
+    <br>
 	null值的处理：${val!}
-	<br>
-	使用if判断null值：
-	<#if val??>
-	val是有值的。。。
-	<#else>
-	val值为null。。。
-	</#if>
-	<br>
-	include标签测试：
-	<#include "hello.ftl">
+    <br>
+    使用if判断null值：
+    <#if val??>
+    val是有值的...
+    <#else>
+    val值为null...
+    </#if>
+    <br>
+    include标签测试：
+    <#include "hello.ftl">
 </body>
 </html>

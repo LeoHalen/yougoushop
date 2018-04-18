@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+    <!-- JMS服务厂商提供的ConnectionFactory -->
+    <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <constructor-arg name="brokerURL" value="tcp://192.168.58.146:61616"/>
+    </bean>
+    <!-- spring对象ConnectionFactory的封装 -->
+    <bean id="connectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="targetConnectionFactory"/>
+    </bean>
+
+    <!-- 商品添加topic(消费者)-->
+    <bean id="itemAddTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="item-add-topic" />
+    </bean>
+    <!-- 配置消息的接收者 -->
+    <!-- 配置监听器 -->
+    <bean id="itemAddMessageListener" class="com.yougou.item.listener.ItemAddMessageListener"/>
+    <!-- 消息监听容器 -->
+    <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="destination" ref="itemAddTopic"/>
+        <property name="messageListener" ref="itemAddMessageListener"></property>
+    </bean>
+
+</beans>
