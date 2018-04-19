@@ -106,3 +106,8 @@
      nginx开启：./nginx
      nginx关闭：./nginx -s stop
      nginx刷新配置：./nginx -s reload
+  
+  tomcat集群：
+    
+    tomcat01:8005,8080,8009
+    tomcat02:8006,8081,8010

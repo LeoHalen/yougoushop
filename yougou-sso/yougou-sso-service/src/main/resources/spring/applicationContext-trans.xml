@@ -29,7 +29,7 @@
     <!-- 切面 -->
     <aop:config>
         <aop:advisor advice-ref="txAdvice"
-                     pointcut="execution(* com.yougou.content.service.*.*(..))" />
+                     pointcut="execution(* com.yougou.sso.service.*.*(..))" />
     </aop:config>
 
 </beans>
