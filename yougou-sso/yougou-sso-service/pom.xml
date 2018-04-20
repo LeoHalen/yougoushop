@@ -12,7 +12,7 @@
     <artifactId>yougou-sso-service</artifactId>
     <packaging>war</packaging>
 
-    <name>yougou-sso-service Maven Webapp</name>
+    <name>yougou-sso-service</name>
     <!-- FIXME change it to the project's website -->
     <url>http://maven.apache.org</url>
 

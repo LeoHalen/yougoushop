@@ -13,7 +13,7 @@
     <artifactId>yougou-item-web</artifactId>
     <packaging>war</packaging>
 
-    <name>yougou-item-web Maven Webapp</name>
+    <name>yougou-item-web</name>
     <!-- FIXME change it to the project's website -->
     <url>http://maven.apache.org</url>
 

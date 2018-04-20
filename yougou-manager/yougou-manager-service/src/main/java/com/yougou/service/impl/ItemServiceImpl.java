@@ -62,7 +62,7 @@ public class ItemServiceImpl implements ItemService {
             //把结果添加到缓存
             jedisClient.set(ITEM_INFO + ":" + itemId +":BASE",JsonUtils.objectToJson(tbItem));
             //设置过期时间，提高缓存利用率
-            jedisClient.expire(ITEM_INFO, ITEM_EXPIRE);
+            jedisClient.expire(ITEM_INFO + ":" + itemId +":BASE", ITEM_EXPIRE);
         } catch (Exception e) {
             e.printStackTrace();
         }

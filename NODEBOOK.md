@@ -33,6 +33,8 @@ DEBUG快捷键
     SET KEY VALUE       创建key
     DEL KEY             删除key
     KEYS *              查询所有key
+    EXPIRE KEY TIME     设置过期时间
+    TTL KEY             查看剩余时间
     
 4、solr
     

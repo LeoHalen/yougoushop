@@ -21,8 +21,11 @@
 	</bean>
 	<!-- 配置包扫描器，扫描@Controller注解的类 -->
 	<context:component-scan base-package="com.yougou.sso.controller"/>
+	<mvc:resources mapping="/css/**" location="/WEB-INF/css/"/>
+	<mvc:resources mapping="/js/**" location="/WEB-INF/js/"/>
+	<mvc:resources mapping="/images/**" location="/WEB-INF/images/"/>
 	<!-- 引用dubbo服务 -->
 	<dubbo:application name="yougou-sso-web"/>
 	<dubbo:registry protocol="zookeeper" address="192.168.58.143:2181"/>
-    <!--<dubbo:reference interface="com.yougou.sso.ItemService" id="itemService" />-->
+    <dubbo:reference interface="com.yougou.sso.service.UserService" id="userService" />
 </beans>

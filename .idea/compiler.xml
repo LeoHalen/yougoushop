@@ -19,6 +19,9 @@
         <module name="yougou-search-interface" />
         <module name="yougou-search-service" />
         <module name="yougou-search-web" />
+        <module name="yougou-sso-interface" />
+        <module name="yougou-sso-service" />
+        <module name="yougou-sso-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +42,10 @@
       <module name="yougou-search-interface" target="1.7" />
       <module name="yougou-search-service" target="1.7" />
       <module name="yougou-search-web" target="1.7" />
+      <module name="yougou-sso" target="1.7" />
+      <module name="yougou-sso-interface" target="1.7" />
+      <module name="yougou-sso-service" target="1.7" />
+      <module name="yougou-sso-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
