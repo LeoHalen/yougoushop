@@ -86,10 +86,10 @@
             <artifactId>zkclient</artifactId>
         </dependency>
         <!-- Redis客户端 -->
-        <!--<dependency>
+        <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
 </project>

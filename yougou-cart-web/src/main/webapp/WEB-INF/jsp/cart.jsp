@@ -120,7 +120,7 @@
           <div class="cart-total-2014">
               <div class="cart-button">
                   <span class="check-comm-btns" id="checkout-jd">
-                      <a class="checkout" href="http://localhost:8091/order/order-cart.html" clstag="clickcart|keycount|xincart|gotoOrderInfo" id="toSettlement">去结算<b></b></a>
+                      <a class="checkout" href="http://localhost:8092/order/order-cart.html" clstag="clickcart|keycount|xincart|gotoOrderInfo" id="toSettlement">去结算<b></b></a>
                   </span>
                   <span class="combine-btns" style="display:none">
                         <span class="fore1" style="display: none;">

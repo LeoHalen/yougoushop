@@ -30,6 +30,12 @@
             <artifactId>yougou-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- 依赖与sso-interface子模块 -->
+        <dependency>
+            <groupId>com.yougou</groupId>
+            <artifactId>yougou-sso-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- 依赖与order-interface子模块 -->
         <dependency>
             <groupId>com.yougou</groupId>
