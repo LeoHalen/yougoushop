@@ -42,7 +42,7 @@ public class SearchServiceImpl implements SearchService {
         query.setHighlight(true);
         query.addHighlightField("item_title");
         query.setHighlightSimplePre("<font color='red'>");
-        query.setHighlightSimplePost("<font>");
+        query.setHighlightSimplePost("</font>");
         //调用dao执行查询
         SearchResult result = searchDao.search(query);
         //计算查询结果的总页数

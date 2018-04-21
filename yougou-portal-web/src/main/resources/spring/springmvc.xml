@@ -25,9 +25,4 @@
 	<dubbo:application name="yougou-portal-web"/>
 	<dubbo:registry protocol="zookeeper" address="192.168.58.143:2181"/>
 	<dubbo:reference interface="com.yougou.content.service.ContentService" id="contentService" />
-	<!--<dubbo:reference interface="ItemCatService" id="itemCatService" />
-	<dubbo:reference interface="ContentCategoryService" id="contentCategoryService" />
-	<dubbo:reference interface="com.yougou.content.service.ContentService" id="contentService" />
-	<dubbo:reference interface="com.yougou.search.service.SearchItemService" id="searchItemService" />
-	-->
-</beans>      
+</beans>

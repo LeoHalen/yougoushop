@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yougou-cart-web" />
         <module name="yougou-common" />
         <module name="yougou-content-interface" />
         <module name="yougou-content-service" />
@@ -15,6 +16,9 @@
         <module name="yougou-manager-pojo" />
         <module name="yougou-manager-service" />
         <module name="yougou-manager-web" />
+        <module name="yougou-order-interface" />
+        <module name="yougou-order-service" />
+        <module name="yougou-order-web" />
         <module name="yougou-portal-web" />
         <module name="yougou-search-interface" />
         <module name="yougou-search-service" />
@@ -25,6 +29,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="yougou-cart-web" target="1.7" />
       <module name="yougou-common" target="1.7" />
       <module name="yougou-content" target="1.7" />
       <module name="yougou-content-interface" target="1.7" />
@@ -36,6 +41,10 @@
       <module name="yougou-manager-pojo" target="1.7" />
       <module name="yougou-manager-service" target="1.7" />
       <module name="yougou-manager-web" target="1.7" />
+      <module name="yougou-order" target="1.7" />
+      <module name="yougou-order-interface" target="1.7" />
+      <module name="yougou-order-service" target="1.7" />
+      <module name="yougou-order-web" target="1.7" />
       <module name="yougou-parent" target="1.7" />
       <module name="yougou-portal-web" target="1.7" />
       <module name="yougou-search" target="1.7" />

@@ -304,7 +304,7 @@
 		//加入购物车之前，先取商品数量
 		var num = $("#buy-num").val();
 		//拼装url参数，做跳转
-		location.href="http://localhost:8089/cart/add/${item.id}.html?num=" + num;
+		location.href="http://localhost:8090/cart/add/${item.id}.html?num=" + num;
 	}
 </script>
 </body>
