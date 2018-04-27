@@ -11,7 +11,7 @@ public interface ItemService {
 
     EasyUIDataGridResult getItemList(int page, int rows);
 
-    YougouResult addItem(TbItem item, String desc);
+    YougouResult addItem(TbItem item, String desc, String itemParam);
 
     TbItemDesc getItemDescById(long itemId);
 }

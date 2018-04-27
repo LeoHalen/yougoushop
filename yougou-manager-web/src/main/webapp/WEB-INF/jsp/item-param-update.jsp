@@ -40,6 +40,37 @@
         TAOTAO.initItemCat({
             fun:function(node){
                 $(".addGroupTr").hide().find(".param").remove();
+                var json = [{
+                    "group": "主体",
+                    "params": ["品牌", "产品类型", "主要材质"]
+                }, {
+                    "group": "电机",
+                    "params": ["轮胎尺寸", "最高时速", "极限承重"]
+                }, {
+                    "group": "电池",
+                    "params": ["续航里程", "充电时间"]
+                }, {
+                    "group": "规格",
+                    "params": ["车身自重"]
+                }, {
+                    "group": "环境",
+                    "params": ["IP等级", "极限爬坡"]
+                }];
+                //  判断选择的目录是否已经添加过规格
+                $.getJSON("/item/param/query/itemcatid/" + node.id,function(data){
+                    if(data.status == 200 && data.data){
+                        $.messager.alert("提示", "该类目已经添加，请选择其他类目。", undefined, function(){
+                            $("#itemParamAddTable .selectItemCat").click();
+                        });
+                        return ;
+                    }
+                    $(".addGroupTr").show();
+                });
+            }
+        });
+        TAOTAO.initItemCat({
+            fun:function(node){
+                $(".addGroupTr").hide().find(".param").remove();
                 //  判断选择的目录是否已经添加过规格
                 $.getJSON("/item/param/query/itemcatid/" + node.id,function(data){
                     if(data.status == 200 && data.data){

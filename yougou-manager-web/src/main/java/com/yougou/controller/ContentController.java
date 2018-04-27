@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * java类简单作用描述
+ * 内容管理控制层接口
  *
  * @ProjectName: yougou
  * @Package: com.yougou.controller

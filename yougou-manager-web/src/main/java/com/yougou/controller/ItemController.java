@@ -33,7 +33,6 @@ public class ItemController {
     @ResponseBody
     public TbItem getItemById(@PathVariable Long itemId){
         TbItem item = itemService.getItemById(itemId);
-        System.out.println(item);
         return item;
     }
 
@@ -46,8 +45,8 @@ public class ItemController {
 
     @RequestMapping(value = "/item/save", method = RequestMethod.POST)
     @ResponseBody
-    public YougouResult addItem(TbItem item, String desc){
-        YougouResult result = itemService.addItem(item, desc);
+    public YougouResult addItem(TbItem item, String desc, String itemParams){
+        YougouResult result = itemService.addItem(item, desc, itemParams);
         return result;
     }
 }

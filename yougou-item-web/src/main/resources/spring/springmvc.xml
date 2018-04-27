@@ -29,4 +29,5 @@
 	<dubbo:application name="yougou-item-web"/>
 	<dubbo:registry protocol="zookeeper" address="192.168.58.143:2181"/>
     <dubbo:reference interface="com.yougou.service.ItemService" id="itemService" />
+    <dubbo:reference interface="com.yougou.service.ItemParamItemService" id="itemParamItemService" />
 </beans>

@@ -9,9 +9,12 @@ import com.yougou.common.utils.JsonUtils;
 import com.yougou.jedis.JedisClient;
 import com.yougou.mapper.TbItemDescMapper;
 import com.yougou.mapper.TbItemMapper;
+import com.yougou.mapper.TbItemParamItemMapper;
+import com.yougou.mapper.TbItemParamMapper;
 import com.yougou.pojo.TbItem;
 import com.yougou.pojo.TbItemDesc;
 import com.yougou.pojo.TbItemExample;
+import com.yougou.pojo.TbItemParamItem;
 import com.yougou.service.ItemService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +36,8 @@ public class ItemServiceImpl implements ItemService {
     private TbItemMapper itemMapper;
     @Autowired
     private TbItemDescMapper itemDescMapper;
+    @Autowired
+    private TbItemParamItemMapper itemParamItemMapper;
     @Autowired
 	private JmsTemplate jmsTemplate;
    	@Resource(name = "itemAddTopic")
@@ -86,7 +91,7 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public YougouResult addItem(TbItem item, String desc) {
+    public YougouResult addItem(TbItem item, String desc, String itemParam) {
         //生成商品id
         final long itemId = IDUtils.genItemId();
         //补全item的属性
@@ -106,13 +111,22 @@ public class ItemServiceImpl implements ItemService {
         itemDesc.setCreated(new Date());
         //向商品描述表插入数据
         itemDescMapper.insert(itemDesc);
+
+        //构造商品规格参数对象
+        TbItemParamItem itemParamItem = new TbItemParamItem();
+        itemParamItem.setItemId(itemId);
+        itemParamItem.setParamData(itemParam);
+        itemParamItem.setCreated(new Date());
+        itemParamItem.setUpdated(new Date());
+        //向商品规格参数表插入数据
+        itemParamItemMapper.insert(itemParamItem);
         //向ActiveMQ发送商品添加消息
 		jmsTemplate.send(destination, new MessageCreator() {
 			@Override
 			public Message createMessage(Session session) throws JMSException {
-				//发送商品id
-				TextMessage textMessage = session.createTextMessage(itemId + "");
-				return textMessage;
+            //发送商品id
+            TextMessage textMessage = session.createTextMessage(itemId + "");
+            return textMessage;
 			}
 		});
         //返回结果

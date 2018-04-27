@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yougou.mapper.TbItemParamExtendMapper">
+  <resultMap id="BaseResultMap" type="com.yougou.pojo.TbItemParamExtend">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="item_cat_id" jdbcType="BIGINT" property="itemCatId" />
+    <result column="param_data" jdbcType="BIGINT" property="paramData" />
+    <result column="created" jdbcType="TIMESTAMP" property="created" />
+    <result column="updated" jdbcType="TIMESTAMP" property="updated" />
+    <result column="item_cat_name" jdbcType="TIMESTAMP" property="itemCatName" />
+  </resultMap>
+
+  <select id="selectItemParamExtendList" resultMap="BaseResultMap">
+  SELECT
+    tip.id,
+    tip.item_cat_id,
+    tip.param_data,
+    tip.created,
+    tip.updated,
+    tic.name AS item_cat_name
+  FROM
+    tb_item_param AS tip
+  LEFT JOIN tb_item_cat AS tic
+    ON tip.item_cat_id = tic.id
+  </select>
+</mapper>

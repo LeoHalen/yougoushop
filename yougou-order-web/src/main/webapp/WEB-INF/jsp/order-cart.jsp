@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>订单结算页 -淘淘商城</title>
+    <title>订单结算页 -优购商城</title>
 	<!--结算页面样式-->	
 	<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
     <link type="text/css" rel="stylesheet"  href="/css/order-commons.css" source="widget"/>	
@@ -25,7 +25,7 @@
 <!--shortcut end-->
 
 <div class="w w1 header clearfix">
-    <div id="logo"><a href="/"><img src="/images/taotao-logo.gif" alt="淘淘商城"></a></div>
+    <div id="logo"><a href="/"><img src="/images/taotao-logo.gif" alt="优购商城"></a></div>
 </div>
 
 <form id="orderForm" class="hide" action="/order/create.html" method="post">
@@ -181,7 +181,7 @@
 <div class="shopping-list ABTest">
 	<div class="goods-list">
      <!--配送方式-->
-    <h4 class="vendor_name_h" id="0">商家：淘淘商城</h4>		         
+    <h4 class="vendor_name_h" id="0">商家：优购商城</h4>		         
     <div class="goods-suit goods-last">
 	 <c:forEach items="${cartList }" var="cart">
 		<div class="goods-item goods-item-extra">
@@ -225,9 +225,9 @@
 			<ul>
 				<li class="mode-tab-item " id="jd_shipment_item"
 					onclick="doSwithTab('pay')"><span
-					id="jdShip-span-tip" class="m-txt">淘淘快递<i
+					id="jdShip-span-tip" class="m-txt">优购快递<i
 						class='qmark-icon qmark-tip'
-						data-tips='由淘淘公司负责配送，速度很快，还接受上门刷卡付款服务'></i></span><b></b></li>
+						data-tips='由优购公司负责配送，速度很快，还接受上门刷卡付款服务'></i></span><b></b></li>
 			</ul>
 		</div>
 	</div>
@@ -298,7 +298,7 @@
             由于价格可能发生变化，请核对后再提交订单
           </div>
           <div style="display:none" id="factoryShipCodShowDivBottom" class="dispatching">
-            部分商品货到付款方式：先由淘淘配送“提货单”并收款，然后厂商发货。
+            部分商品货到付款方式：先由优购配送“提货单”并收款，然后厂商发货。
           </div>
         </div>
         <span id="submit_message" style="display:none" class="submit-error" ></span>

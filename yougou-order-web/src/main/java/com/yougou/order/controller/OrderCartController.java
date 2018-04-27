@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +41,7 @@ public class OrderCartController {
 
     /**
      * 展示订单确认页面
+     *
      * @param request
      * @return
      */
@@ -70,13 +72,19 @@ public class OrderCartController {
 
     /**
      * 生成订单
+     *
      * @param orderInfo
      * @return
      */
     @RequestMapping(value = "/order/create", method = RequestMethod.POST)
-    public String createOrder(OrderInfo orderInfo, Model model) {
+    public String createOrder(OrderInfo orderInfo,
+                              Model model,
+                              HttpServletRequest request,
+                              HttpServletResponse response) {
         //生成订单
         YougouResult result = orderService.createOrder(orderInfo);
+        //清除购物车cookie
+        CookieUtils.deleteCookie(request, response, CART_KEY);
         //返回逻辑视图
         model.addAttribute("orderId", result.getData().toString());
         model.addAttribute("payment", orderInfo.getPayment());

@@ -29,10 +29,10 @@
   redis:
 
     目录：/usr/local/redis
-    启动(前端)：./bin/redis-server
-    启动(后端)：./bin/redis-server redis.conf
-    连接redis：./redis-cli
-    关闭：./bin/redis-cli shutdown
+    启动(前端)：/usr/local/redis/bin/redis-server
+    启动(后端)：/usr/local/redis/bin/redis-server redis.conf
+    连接redis：/usr/local/redis/bin/redis-cli
+    关闭：/usr/local/redis/bin/redis-cli shutdown
   redis集群:
 
     启动：/usr/local/redis-cluster/start-all.sh

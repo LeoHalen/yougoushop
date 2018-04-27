@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 /**
- * 内容分类控制层接口
+ * 内容分类管理控制层接口
  *
  * @ProjectName: yougou
  * @Package: com.yougou.controller

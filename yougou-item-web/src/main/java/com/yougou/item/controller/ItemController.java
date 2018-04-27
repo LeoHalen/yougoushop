@@ -3,6 +3,7 @@ package com.yougou.item.controller;
 import com.yougou.item.pojo.Item;
 import com.yougou.pojo.TbItem;
 import com.yougou.pojo.TbItemDesc;
+import com.yougou.service.ItemParamItemService;
 import com.yougou.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,6 +26,8 @@ public class ItemController {
 
     @Autowired
     private ItemService itemService;
+    @Autowired
+    private ItemParamItemService itemParamItemService;
 
     @RequestMapping("/item/{itemId}")
     public String showItem(@PathVariable Long itemId,
@@ -39,5 +42,18 @@ public class ItemController {
         model.addAttribute("itemDesc", itemDesc);
         //返回逻辑视图
         return "item";
+    }
+
+    /**
+     * 展示规格参数
+     * @param itemId
+     * @param model
+     * @return
+     */
+    @RequestMapping("/item/param/{itemId}")
+    public String showItemParamItem(@PathVariable Long itemId, Model model) {
+        String html = itemParamItemService.getItemParamItemByItemId(itemId);
+        model.addAttribute("myHtml", html);
+        return "item-param";
     }
 }

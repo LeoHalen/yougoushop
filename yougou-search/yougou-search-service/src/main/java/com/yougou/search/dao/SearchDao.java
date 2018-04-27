@@ -57,7 +57,7 @@ public class SearchDao {
             item.setSell_point((String) solrDocument.get("item_sell_point"));
             //取高亮显示
             Map<String, Map<String, List<String>>> highlighting = response.getHighlighting();
-            List<String> list = highlighting.get(solrDocument.get("id")).get(solrDocument.get("item_title"));
+            List<String> list = highlighting.get(solrDocument.get("id")).get("item_title");
             String title = "";
             if(list != null && list.size() != 0) {
                 title = list.get(0);

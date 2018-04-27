@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * java类简单作用描述
+ * 内容管理服务层接口
  *
  * @ProjectName: yougou
  * @Package: com.yougou.content.service.impl

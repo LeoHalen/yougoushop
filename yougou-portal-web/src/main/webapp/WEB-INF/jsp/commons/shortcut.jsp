@@ -12,11 +12,7 @@
 			</li>
 			<li class="fore2-1 ld" id="jd-vip">
 				<s></s>
-				<a target="_blank" rel="nofollow" href="http://vip.jd.com">会员俱乐部</a>
-			</li>
-			<li class="fore3 ld menu" id="app-jd" data-widget="dropdown" clstag="homepage|keycount|home2013|01d">
-				<s></s><i></i><span class="outline"></span><span class="blank"></span>
-				<a href="http://app.jd.com/" target="_blank">手机优购</a><b></b>
+				<a target="_blank" rel="nofollow" href="http://vip.jd.com">我的优购</a>
 			</li>
 			<li class="fore4 ld menu" id="biz-service" data-widget="dropdown" clstag="homepage|keycount|home2013|01e">
 				<s></s>

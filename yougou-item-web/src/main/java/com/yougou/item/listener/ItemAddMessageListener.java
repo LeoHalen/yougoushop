@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * java类简单作用描述
+ * 商品添加生成静态页面
  *
  * @ProjectName: yougoushop
  * @Package: com.yougou.item.listener

@@ -19,6 +19,8 @@
     <dubbo:protocol name="dubbo" port="20880" />
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="com.yougou.service.ItemService" ref="itemServiceImpl" timeout="300000"/>
+    <dubbo:service interface="com.yougou.service.ItemParamService" ref="itemParamServiceImpl" timeout="300000"/>
+    <dubbo:service interface="com.yougou.service.ItemParamItemService" ref="itemParamItemServiceImpl" timeout="300000"/>
     <dubbo:service interface="com.yougou.service.ItemCatService" ref="itemCatServiceImpl" timeout="300000"/>
 
 </beans>
