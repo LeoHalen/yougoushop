@@ -2,7 +2,6 @@ package com.yougou.order.controller;
 
 import com.yougou.common.pojo.YougouResult;
 import com.yougou.common.utils.CookieUtils;
-import com.yougou.common.utils.JsonUtils;
 import com.yougou.pojo.TbUser;
 import com.yougou.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
