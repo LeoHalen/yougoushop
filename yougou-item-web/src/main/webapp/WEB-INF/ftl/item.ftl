@@ -51,7 +51,7 @@
 <script type="text/javascript">pageConfig.product.marketPrice='';</script>
 <ul id="summary">
 	<li id="summary-price">
-		<div class="dt">淘&nbsp;淘&nbsp;价：</div>
+		<div class="dt">优&nbsp;购&nbsp;价：</div>
 		<div class="dd">
 			<strong class="p-price"  id="jd-price">￥${item.price / 100 }"</strong>
 			<a id="notice-downp" href="#none" target="_blank" clstag="shangpin|keycount|product|jiangjia">(降价通知)</a>

@@ -117,7 +117,7 @@
 <script type="text/javascript">pageConfig.product.marketPrice='';</script>
 <ul id="summary">
 	<li id="summary-price">
-		<div class="dt">淘&nbsp;淘&nbsp;价：</div>
+		<div class="dt">优&nbsp;购&nbsp;价：</div>
 		<div class="dd">
 			<strong class="p-price"  id="jd-price">￥<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${item.price / 100 }"/> </strong>
 			<a id="notice-downp" href="#none" target="_blank" clstag="shangpin|keycount|product|jiangjia">(降价通知)</a>
@@ -277,7 +277,7 @@
 					<li>上架时间：2014-09-24 15:45:26</li>
 					<li>商品毛重：13.5kg</li>
 					<li>商品产地：中国大陆</li>
-										<li>分辨率：全高清（1920*1080）</li><li>居室场景：卧室电视 ，客厅电视</li><li>品类：LED电视（主流）</li><li>3D：不支持</li><li>功能：普通电视</li><li>尺寸：40-43英寸</li>
+					<li>分辨率：全高清（1920*1080）</li><li>居室场景：卧室电视 ，客厅电视</li><li>品类：LED电视（主流）</li><li>3D：不支持</li><li>功能：普通电视</li><li>尺寸：40-43英寸</li>
 				</ul>
 				<div class="detail-correction">
 					<b></b>如果您发现商品信息不准确，欢迎纠错
@@ -327,12 +327,12 @@
 				paramUrl:"/item/param/"
 			},
 			//请求商品描述
-			getItemDesc:function(itemId) {
+			/*getItemDesc:function(itemId) {
 				$.get(itemControl.param.descUrl+itemId+".html", function(data){
 					//返回商品描述的html，直接显示到页面
 					$("#item-desc").append(data);
 				});
-			},
+			},*/
 			//参数请求flag
 			haveParam:false,
 			//请求规格参数

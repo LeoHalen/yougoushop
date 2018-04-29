@@ -14,6 +14,7 @@
     ctrl+o      快捷键: 可以用来调用一些可以重新override的方法。
     alt+insert  快捷键: 快速调用一些方法，例如get和set等，override也可以在这里调用。
     alt+shift+/ 快捷键: 可以将选中的代码注释掉，布局文件中使用很方便。
+    ctrl+h      快捷键：在整个项目文件中搜索关键字
 
 DEBUG快捷键
 
