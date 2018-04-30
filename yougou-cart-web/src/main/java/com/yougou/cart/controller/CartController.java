@@ -242,7 +242,7 @@ public class CartController {
     }
 
     /**
-     * 将购物车写入到cookies或redis
+     * 将购物车写入到cookie或redis
      * @param request
      * @param response
      * @param cartItemList

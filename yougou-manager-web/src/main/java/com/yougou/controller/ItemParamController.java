@@ -27,7 +27,7 @@ public class ItemParamController {
     private ItemParamService itemParamService;
 
     /**
-     * 通过规格参数id获取规格参数
+     * 通过商品类目id获取规格参数模板
      * @param cid
      * @return
      */
@@ -39,7 +39,7 @@ public class ItemParamController {
     }
 
     /**
-     * 插入规格参数
+     * 插入规格参数模板
      * @param cid
      * @param paramData
      * @return
@@ -51,6 +51,12 @@ public class ItemParamController {
         return result;
     }
 
+    /**
+     * 获得规格参数模板列表
+     * @param page
+     * @param rows
+     * @return
+     */
     @RequestMapping("/list")
     @ResponseBody
     public EasyUIDataGridResult getItemParamList(Integer page, Integer rows) {

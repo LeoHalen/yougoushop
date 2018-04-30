@@ -4,7 +4,7 @@
   <resultMap id="BaseResultMap" type="com.yougou.pojo.TbItemParamExtend">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="item_cat_id" jdbcType="BIGINT" property="itemCatId" />
-    <result column="param_data" jdbcType="BIGINT" property="paramData" />
+    <result column="param_data" jdbcType="LONGVARCHAR" property="paramData" />
     <result column="created" jdbcType="TIMESTAMP" property="created" />
     <result column="updated" jdbcType="TIMESTAMP" property="updated" />
     <result column="item_cat_name" jdbcType="TIMESTAMP" property="itemCatName" />

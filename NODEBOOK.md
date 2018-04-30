@@ -115,3 +115,7 @@ vi/vim命令
 6、windows
 
     $jar -cvf ../项目名称.war *.*                    window 打war包
+    $netstat -ano|findstr xxx                       查看占用端口
+    $tasklist|findstr xxx                           查看占用程序
+    $taskkill /t /f /pid xxx                        杀死占用程序(通过pid)
+    $taskkill /t /f /im xxx.exe                     杀死占用程序(进程名)
