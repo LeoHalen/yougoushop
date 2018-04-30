@@ -394,7 +394,7 @@ h1 {
 }
 
 h2,h3 {
-	font-size: 14px
+	font-size: 13px
 }
 
 h4,h5,h6 {
@@ -407,13 +407,13 @@ a {
 }
 
 a:hover {
-	color: #E4393C;
+	color: #c71525;
 	text-decoration: underline
 }
 
 .w {
 	width: 990px;
-	margin: 0 auto
+	margin: 0 auto;
 }
 
 .w1 {
@@ -469,7 +469,7 @@ a:hover {
 }
 
 .p-price strong,.p-market strong {
-	color: #E4393C
+	color: #c71525
 }
 
 .pi {
@@ -589,7 +589,7 @@ img.err-price {
 }
 
 .slide-controls .curr {
-	background: #E4393C
+	background: #c71525
 }
 
 #toppanel {
@@ -1304,7 +1304,10 @@ img.err-price {
 	float: left;
 	width: 330px
 }
-
+#logo-2013 image {
+    text-align: center;
+    margin-left: 10px;
+}
 #logo-2013 a:link b,#logo-2013 a:visited b {
 	top: 12px;
 	left: 168px;
@@ -1342,7 +1345,7 @@ img.err-price {
 	width: 304px;
 	height: 30px;
 	margin-bottom: 3px;
-	border: 3px solid #E4393C
+	border: 3px solid #c71525
 }
 
 #search-2013 .form {
@@ -1365,7 +1368,7 @@ img.err-price {
 
 #search-2013 .button {
 	width: 78px;
-	background: #E4393C;
+	background: #c71525;
 	font-size: 14px;
 	font-weight: 700;
 	color: #fff
@@ -1382,7 +1385,7 @@ img.err-price {
 	top: 32px;
 	left: -3px;
 	width: 308px;
-	border: 1px solid #E4393C;
+	border: 1px solid #c71525;
 	background: #fff;
 	-moz-box-shadow: 0 0 5px #999;
 	-webkit-box-shadow: 0 0 5px #999;
@@ -1513,7 +1516,7 @@ img.err-price {
 	left: -3px;
 	width: 648px;
 	padding: 10px 10px 10px 0;
-	border: 1px solid #E4393C;
+	border: 1px solid #c71525;
 	background: #fff;
 	-moz-box-shadow: 0 0 5px #999;
 	-webkit-box-shadow: 0 0 5px #999;
@@ -1578,7 +1581,7 @@ img.err-price {
 }
 
 #shelper-2013 .list-text li.fore1 strong {
-	color: #E4393C
+	color: #c71525
 }
 
 #shelper-2013 .list-text li.fore1 .fore1 strong {
@@ -1627,7 +1630,7 @@ img.err-price {
 }
 
 #shelper-2013 .list-word strong {
-	color: #E4393C
+	color: #c71525
 }
 
 #shelper-2013 .list-word a:link,#shelper-2013 .list-word a:visited {
@@ -1654,7 +1657,7 @@ img.err-price {
 }
 
 #shelper-2013 .list-img .p-price {
-	color: #E4393C
+	color: #c71525
 }
 
 #shelper-2013 .list-img .item:hover {
@@ -1683,7 +1686,7 @@ img.err-price {
 }
 
 #hotwords a:hover,#hotwords a:active {
-	color: #E4393C
+	color: #c71525
 }
 
 .root61 #search-2013 {
@@ -1806,7 +1809,7 @@ img.err-price {
 	height: 25px;
 	text-align: center;
 	line-height: 25px;
-	background: #E4393C;
+	background: #c71525;
 	color: #fff;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -1894,7 +1897,7 @@ img.err-price {
 
 #my360buy-2013 .uclist a:hover,#my360buy-2013 .uclist a:active {
 	background: #F5F5F5;
-	color: #E4393C
+	color: #c71525
 }
 
 #my360buy-2013 .viewlist {
@@ -2139,12 +2142,12 @@ img.err-price {
 
 #settleup-2013 .smb b {
 	margin: 0 5px;
-	color: #E4393C
+	color: #c71525
 }
 
 #settleup-2013 .smb strong {
 	font-size: 18px;
-	color: #E4393C
+	color: #c71525
 }
 
 #settleup-2013 .smb a {
@@ -2152,7 +2155,7 @@ img.err-price {
 	width: 120px;
 	height: 30px;
 	margin-top: 6px;
-	background: #E4393C;
+	background: #c71525;
 	color: #fff;
 	text-align: center;
 	font-weight: 700;
@@ -2245,17 +2248,17 @@ img.err-price {
 	height: 40px;
 	padding-left: 210px;
 	margin-bottom: 10px;
-	background: #E4393C
+    /*background: #c71525*/
+    background: #c71525
 }
 
 #navitems-2013 {
 	background: -moz-linear-gradient(top, #E64346, #E13335);
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#E64346),
-		to(#E13335));
+	/*background: -webkit-gradient(linear, 0 0, 0 100%, from(#E64346),
+		to(#E13335));*/
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E64346",
 		endColorstr="#E13335");
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr="
-		#E64346 ", endColorstr=" #E13335 ")"
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E64346" , endColorstr="#E13335" );
 }
 
 #navitems-2013,#navitems-2013 li,#navitems-2013 li a {
@@ -2275,7 +2278,7 @@ img.err-price {
 	width: 85px;
 	text-align: center;
 	color: #fff;
-	font: 700 15px/40px "microsoft yahei";
+	font: 700 13px/40px "microsoft yahei";
 	text-decoration: none
 }
 
@@ -2337,7 +2340,7 @@ img.err-price {
 	height: 402px;
 	padding: 3px 3px 3px 0;
 	background: #FAFAFA;
-	border: solid #E4393C;
+	border: solid #c71525;
 	border-width: 0 2px 2px;
 	overflow: visible
 }
@@ -2374,7 +2377,7 @@ img.err-price {
 }
 
 #categorys-2013 h3 a:hover,#categorys-2013 h3 a:active {
-	color: #E4393C;
+	color: #c71525;
 	font-weight: 700
 }
 
@@ -2405,7 +2408,7 @@ img.err-price {
 #categorys-2013 .item dt {
 	padding: 3px 6px 0 0;
 	font-weight: 700;
-	color: #E4393C
+	color: #c71525
 }
 
 #categorys-2013 .item dd {
@@ -2458,7 +2461,7 @@ img.err-price {
 }
 
 #categorys-2013 .subitem dt a {
-	color: #E4393C;
+	color: #c71525;
 	text-decoration: underline
 }
 
@@ -2971,7 +2974,7 @@ img.err-price {
 }
 
 #app-jd .dd .qr-code .details strong {
-	color: #E4393C;
+	color: #c71525;
 	font-size: 14px
 }
 
@@ -3025,7 +3028,7 @@ img.err-price {
 #app-jd .qr-item .qr-ext strong {
 	line-height: 20px;
 	margin-bottom: 7px;
-	color: #E4393C
+	color: #c71525
 }
 
 #app-jd .qr-item .qr-ext .btn-app-apple {
@@ -3077,8 +3080,8 @@ img.err-price {
 	background: url(../images/vip.png)
 }
 
-/
-* 
+
+*
 .w1 {
 	padding-top: 8px
 }
@@ -3232,7 +3235,7 @@ img.err-price {
 }
 
 .curr .mt,.curr .smt {
-	color: #E4393C
+	color: #c71525
 }
 
 .curr .mc,.curr .smc {
@@ -3404,7 +3407,7 @@ img.err-price {
 	top: 23px;
 	left: 0;
 	height: 7px;
-	border-bottom: 2px solid #E4393C;
+	border-bottom: 2px solid #c71525;
 	overflow: hidden;
 	text-align: center
 }
@@ -3416,7 +3419,7 @@ img.err-price {
 	height: 0;
 	border-style: dashed dashed solid;
 	border-width: 10px;
-	border-color: transparent transparent #E4393C;
+	border-color: transparent transparent #c71525;
 	overflow: hidden;
 	zoom: 1;
 	font-size: 0
@@ -3506,7 +3509,7 @@ img.err-price {
 }
 
 #virtuals .curr .mt a:link,#virtuals .curr .mt a:visited {
-	color: #E4393C
+	color: #c71525
 }
 
 #virtuals .curr .mc {
@@ -3897,7 +3900,7 @@ img.err-price {
 
 #first .p-name span {
 	float: left;
-	color: #E4393C;
+	color: #c71525;
 	margin-right: 5px
 }
 
@@ -4399,7 +4402,7 @@ img.err-price {
 .plist .p-price {
 	font-size: 15px;
 	font-family: Verdana;
-	color: #E4393C
+	color: #c71525
 }
 
 .plist .p-price span {
@@ -4614,7 +4617,7 @@ img.err-price {
 
 .plist .smc .style6 .p-info span {
 	display: none;
-	color: #e4393c
+	color: #c71525
 }
 
 .plist .smc .style6 .fore1 .p-info,.plist .smc .style6 .fore2 .p-info {
@@ -4734,7 +4737,7 @@ img.err-price {
 
 .plist .smc .style7 .p-info span {
 	display: none;
-	color: #e4393c
+	color: #c71525
 }
 
 .plist .smc .style7 .fore1 .p-info,.plist .smc .style7 .fore2 .p-info {
@@ -4858,7 +4861,7 @@ img.err-price {
 
 .plist .smc .style8 .p-info span {
 	display: none;
-	color: #e4393c
+	color: #c71525
 }
 
 .plist .smc .style8 .fore1 .p-info,.plist .smc .style8 .fore2 .p-info {
@@ -5251,7 +5254,7 @@ img.err-price {
 	float: right;
 	width: 50px;
 	text-align: right;
-	color: #E4393C
+	color: #c71525
 }
 
 .ranking .p-price strong {
@@ -5260,7 +5263,7 @@ img.err-price {
 
 .ranking li.fore1 span,.ranking li.fore2 span,.ranking li.fore3 span {
 	background-position: 0 -50px;
-	color: #E4393C
+	color: #c71525
 }
 
 .ranking .curr .smc {
@@ -5667,7 +5670,7 @@ img.err-price {
 	float: right;
 	width: 63px;
 	height: 25px;
-	background: #E4393C;
+	background: #c71525;
 	color: #fff;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -6708,7 +6711,7 @@ a.floor-sort:hover span {
 	color: #fff;
 	font-size: 12px;
 	font-weight: 400;
-	background: #E4393C
+	background: #c71525
 }
 
 #showcase .sc-list .item .s-hotword {
@@ -6796,7 +6799,7 @@ a.floor-sort:hover span {
 	font-size: 22px;
 	font-weight: 400;
 	font-family: Verdana;
-	color: #e4393c
+	color: #c71525
 }
 
 #showcase .sc-list .item.tuangou .s-tuangou:hover {
@@ -6808,7 +6811,7 @@ a.floor-sort:hover span {
 }
 
 #showcase .sc-list .item.tuangou .s-tuangou:hover strong {
-	color: #e4393c
+	color: #c71525
 }
 
 #showcase .sc-ext .item {

@@ -25,7 +25,7 @@
 <!--shortcut end-->
 <div class="w w1 header clearfix">
     <div id="logo"><a href="http://localhost:8082/"><img clstag="clickcart|keycount|xincart|logo"
-                                                         src="/images/taotao-logo.gif" title="返回优购商城首页" alt="返回优购商城首页"></a>
+                                                         src="/images/yougou-logo.png" width="220" height="60" title="返回优购商城首页" alt="返回优购商城首页"></a>
     </div>
     <div class="language"><a href="javascript:void(0);" onclick="toEnCart()"></a></div>
     <div class="progress clearfix">

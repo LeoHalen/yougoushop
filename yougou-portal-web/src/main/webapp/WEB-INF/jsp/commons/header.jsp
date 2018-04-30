@@ -6,7 +6,7 @@
 <!--shortcut end-->
 <div id="o-header-2013">
 	<div class="w" id="header-2013">
-		<div id="logo-2013" class="ld"><a href="http://localhost:8082/" hidefocus="true" clstag="homepage|keycount|home2013|02a"><b></b><img src="/images/taotao-logo.gif" width="270" height="60" alt="优购"></a></div>
+		<div id="logo-2013" class="ld"><a href="http://localhost:8082/" hidefocus="true" clstag="homepage|keycount|home2013|02a"><b></b><img src="/images/yougou-logo.png" width="220" height="60" alt="优购"></a></div>
 		<!--logo end-->
 		<div id="search-2013">
 			<div class="i-search ld">
@@ -42,7 +42,7 @@
 		<!--settleup end-->
 	</div>
 	<!--header end-->
-	<div class="w">
+	<div class="w" id="header-2018">
 		<div id="nav-2013">
 			<div id="categorys-2013" class="categorys-2014">
 				<div class="mt ld">

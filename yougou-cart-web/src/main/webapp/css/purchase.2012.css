@@ -289,7 +289,7 @@ a.btn:hover,a.btn:hover span {
 }
 .cart-inner {
 	border: 1px solid #ddd;
-	border-top:2px solid #999;
+	border-top:4px solid #c71525;
 }
 .cart-inner .cart-thead {
 	height: 35px;
@@ -987,7 +987,7 @@ color:#999;
 }
 .cart-button a#continue:hover .btn-text{background:none;}
 .cart-button a.checkout {
-	width: 135px;
+	width: 120px;
 	height: 36px;
 	float: right;
 	display: block;
@@ -2425,11 +2425,11 @@ color:#999;
 	top:-1px;
 	font-size: 18px;
 	font-weight: bold;
-	background:url(../images/btn-check-20140627.png) no-repeat #e43f42;
+	/*background:url(../images/btn-check-20140627.png) no-repeat #e43f42;*/
 }
 
 .cart-dibu .cart-button a.checkout b,.cart-dibu .cart-button a.checkout-jd b,.cart-dibu .cart-button a.checkout-jdInt b {
-	background:url(../images/btn-check-20140627.png) no-repeat;
+	/*background:url(../images/btn-check-20140627.png) no-repeat;*/
 }
 .cart-dibu .cart-button a.checkout-jd,.cart-dibu .cart-button a.checkout-jd b{
 	display:inline-block;*display:inline;*zoom:1;
