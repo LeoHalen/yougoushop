@@ -1,7 +1,7 @@
 package com.yougou.portal.pojo;
 
 /**
- * java类简单作用描述
+ * 首页大广告pojo
  *
  * @ProjectName: yougou
  * @Package: com.yougou.portal.pojo

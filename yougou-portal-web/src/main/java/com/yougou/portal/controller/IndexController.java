@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * java类简单作用描述
+ * 首页控制层接口
  *
  * @ProjectName: yougou
  * @Package: com.yougou.portal.controller

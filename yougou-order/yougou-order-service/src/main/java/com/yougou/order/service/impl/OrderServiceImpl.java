@@ -1,18 +1,23 @@
 package com.yougou.order.service.impl;
 
 import com.yougou.common.pojo.YougouResult;
+import com.yougou.common.utils.JsonUtils;
 import com.yougou.jedis.JedisClient;
 import com.yougou.mapper.TbOrderItemMapper;
 import com.yougou.mapper.TbOrderMapper;
 import com.yougou.mapper.TbOrderShippingMapper;
 import com.yougou.order.pojo.OrderInfo;
 import com.yougou.order.service.OrderService;
+import com.yougou.pojo.TbItem;
 import com.yougou.pojo.TbOrderItem;
 import com.yougou.pojo.TbOrderShipping;
+import com.yougou.pojo.TbUser;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -43,6 +48,8 @@ public class OrderServiceImpl implements OrderService {
     private String ORDER_ID_GEGIN_VALUE;
     @Value("${ORDER_ITEM_ID_GEN_KEY}")
     private String ORDER_ITEM_ID_GEN_KEY;
+    @Value("${REDIS_CART_KEY}")
+    private String REDIS_CART_KEY;//购物车在redis中保存的key
 
     @Override
     public YougouResult createOrder(OrderInfo orderInfo) {
@@ -80,5 +87,17 @@ public class OrderServiceImpl implements OrderService {
         tbOrderShippingMapper.insert(orderShipping);
         //返回订单号
         return YougouResult.ok(orderId);
+    }
+
+    @Override
+    public List<TbItem> getCartItemList(TbUser tbUser) {
+        //从redis中取购物车
+        String cartJson = jedisClient.get(REDIS_CART_KEY + ":" + tbUser.getId() + ":base");
+        if (StringUtils.isBlank(cartJson))
+            return new ArrayList<>();
+        List<TbItem> itemList = JsonUtils.jsonToList(cartJson, TbItem.class);
+        //清空购物车
+        jedisClient.expire(REDIS_CART_KEY + ":" + tbUser.getId() + ":base", 0);
+        return itemList;
     }
 }

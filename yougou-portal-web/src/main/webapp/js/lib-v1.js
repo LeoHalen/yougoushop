@@ -1171,8 +1171,8 @@ $.extend(jdModelCallCenter, {autoLocation: function(a) {
 //http://d.360buy.com/configs/get?type=JSON
 var category = {OBJ: $("#_JD_ALLSORT"),
 		//URL_Serv: "http://manage.taotao.com/web/itemcat/all?callback=category.getDataService",
-		URL_Serv: "http://127.0.0.1:8081/rest/itemcat/all?callback=category.getDataService",
-		//URL_Serv: "http://localhost:8082/category.json",
+		// URL_Serv: "http://127.0.0.1:8081/rest/itemcat/all?callback=category.getDataService",
+		URL_Serv: "http://localhost:8082/category.json",
 		URL_BrandsServ: "http://d.360buy.com/brandVclist2/get?callback=category.getBrandService&ids=a,9211,9212^b,9214,9215^c,9217,9218^d,9220,9221^e,9223,9224^f,9226,9227^g,9229,9230^h,9232,9233^m,9235,9236^i,9238,9239^j,9241,9242^p,9244,9245^k,9247,9248^l,9250,9251",
 		FN_GetLink: function(a, b) {
 	        var c, d;
@@ -1183,7 +1183,7 @@ var category = {OBJ: $("#_JD_ALLSORT"),
 	            case 2:
 	                c = b.split("|")[0], d = b.split("|")[1]
 	        }
-        return "" == c ? d : (/^http[s]?:\/\/([\w-]+\.)+[\w-]+([\w-.\/?%&=]*)?$/.test(c) || (c = c.replace(/-000$/, ""), c = c.match(/^\d*-\d*$/) ? "http://channel.jd.com/" + c + ".html" : "http://www.taotao.com" + c + ".html"), '<a href="' + c + '">' + d + "</a>")
+        return "" == c ? d : (/^http[s]?:\/\/([\w-]+\.)+[\w-]+([\w-.\/?%&=]*)?$/.test(c) || (c = c.replace(/-000$/, ""), c = c.match(/^\d*-\d*$/) ? "http://channel.jd.com/" + c + ".html" : "http://localhost:8085/" + c ), '<a href="' + c + '">' + d + "</a>")
     },FN_SetLink: function(a) {
         var b = "", c = pageConfig.isHome ? 'clstag="homepage|keycount|home2013|0604e"' : "", d = pageConfig.isHome ? 'clstag="homepage|keycount|home2013|0603e"' : "", e = pageConfig.isHome ? 'clstag="homepage|keycount|home2013|0605e"' : "";
         switch (a) {
@@ -1204,11 +1204,11 @@ var category = {OBJ: $("#_JD_ALLSORT"),
         d.html(a), $.bigiframe(d)*/
     },FN_GetData: function() {
     	//使用jsonp来实现跨域请求
-        $.getJSONP(this.URL_Serv, category.getDataService);
+        // $.getJSONP(this.URL_Serv, category.getDataService);
     	//直接使用ajax请求json数据
-    	/*$.getJSON(this.URL_Serv, function(json){
+    	$.getJSON(this.URL_Serv, function(json){
     		category.getDataService(json);
-    	});*/
+    	});
     },FN_GetBrands: function() {
       //  $.getJSONP(this.URL_BrandsServ, category.getBrandService)
     },FN_RefactorJSON: function(a, b) {

@@ -29,12 +29,12 @@
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:spring/springmvc.xml</param-value>
     </init-param>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>yougou-sso-web</servlet-name>
-    <!-- 伪静态化 -->
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
+  <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+<servlet-name>yougou-sso-web</servlet-name>
+<!-- 伪静态化 -->
+<url-pattern>/</url-pattern>
+</servlet-mapping>
 
 </web-app>

@@ -12,14 +12,16 @@
     <script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
 </head>
 <body>
+<br/>
 <div class="w" id="logo">
     <div>
     	<a href="http://localhost:8082">
-    		<img src="/images/taotao-logo.gif" alt="优购商城" width="170" height="60"/>
+    		<img src="/images/yougou-logo.png" width="180" height="50" alt="优购商城"/>
     	</a> <b></b>
     </div>
 </div>
-
+<br/>
+<br/>
 <div class="w" id="regist">
     <div class="mt">
         <ul class="tab">

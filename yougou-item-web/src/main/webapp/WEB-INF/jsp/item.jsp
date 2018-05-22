@@ -22,7 +22,7 @@
 			line-height: 220%;
 			color: #999;
 			font-size: 12px;
-            border-bottom: 1px solid #d9d9d9;
+            border-bottom: 1px solid #eee;
 		}
 		h3 {
 			width: 110px;

@@ -25,7 +25,7 @@
 <!--shortcut end-->
 
 <div class="w w1 header clearfix">
-    <div id="logo"><a href="/"><img src="/images/taotao-logo.gif" alt="优购商城"></a></div>
+    <div id="logo"><a href="/"><img src="/images/yougou-logo.png" width="220" height="60" alt="优购商城"></a></div>
 </div>
 
 <form id="orderForm" class="hide" action="/order/create.html" method="post">

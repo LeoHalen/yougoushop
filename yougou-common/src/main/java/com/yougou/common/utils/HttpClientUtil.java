@@ -2,6 +2,7 @@ package com.yougou.common.utils;
 
 import java.io.IOException;
 import java.net.URI;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -74,6 +75,8 @@ public class HttpClientUtil {
 		try {
 			// 创建Http Post请求
 			HttpPost httpPost = new HttpPost(url);
+            httpPost.addHeader("Content-type","application/json; charset=utf-8");
+            httpPost.setHeader("Accept", "application/json");
 			// 创建参数列表
 			if (param != null) {
 				List<NameValuePair> paramList = new ArrayList<>();
@@ -81,7 +84,7 @@ public class HttpClientUtil {
 					paramList.add(new BasicNameValuePair(key, param.get(key)));
 				}
 				// 模拟表单
-				UrlEncodedFormEntity entity = new UrlEncodedFormEntity(paramList);
+				UrlEncodedFormEntity entity = new UrlEncodedFormEntity(paramList, Charset.forName("UTF-8"));
 				httpPost.setEntity(entity);
 			}
 			// 执行http请求

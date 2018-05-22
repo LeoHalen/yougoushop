@@ -1,7 +1,10 @@
 package com.yougou.sso.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.yougou.common.pojo.YougouResult;
 import com.yougou.common.utils.CookieUtils;
+import com.yougou.common.utils.HttpClientUtil;
+import com.yougou.common.utils.JsonUtils;
 import com.yougou.pojo.TbUser;
 import com.yougou.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
@@ -17,6 +20,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 用户处理控制层接口
@@ -31,10 +36,18 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class UserController {
 
-    @Autowired
-    private UserService userService;
     @Value("${TOKEN_KEY}")
     private String TOKEN_KEY;
+    @Value("${CART_KEY}")
+    private String CART_KEY;//购物车在cookie中保存的key
+    @Value("${CART_BASE_URL}")
+    private String CART_BASE_URL;//单点登录系统请求地址
+    @Value("${CART_INTERFACE_URL}")
+    private String CART_INTERFACE_URL;//单点登录系统通过token获取用户信息接口地址
+
+    @Autowired
+    private UserService userService;
+
 
     @RequestMapping("/user/check/{param}/{type}")
     @ResponseBody
@@ -69,6 +82,28 @@ public class UserController {
             //把token写入cookie
             CookieUtils.setCookie(request, response, TOKEN_KEY,
                     result.getData().toString());
+            //获取本地cookie购物车
+            String cookieCartJson = CookieUtils.getCookieValue(request, CART_KEY, true);
+            //如果本地cookie中购物车为空,结束程序返回结果
+            if ("[]".equals(cookieCartJson) || StringUtils.isBlank(cookieCartJson))
+                return result;
+            //跨域请求购物车系统，将本地cookie中购物车同步到redis
+            Map map = new HashMap();
+            map.put("data",cookieCartJson);
+            //跨域请求将本地cookie中购物车同步到redis
+            String yougouResult = HttpClientUtil.doPost(CART_BASE_URL + CART_INTERFACE_URL + result.getData().toString(), map);
+            if (StringUtils.isBlank(yougouResult)) {
+                result.build(400, "用户登录异常！");
+                return result;
+            }
+            JSONObject jsonObj = JSONObject.parseObject(yougouResult);
+            String status = jsonObj.getString("status");
+            if (StringUtils.isBlank(status) || !"200".equals(status)) {
+                result.build(400, "用户登录异常！");
+                return result;
+            }
+            //同步成功后,删除本地cookie购物车
+            CookieUtils.deleteCookie(request, response,CART_KEY);
         }
         return result;
     }
@@ -85,7 +120,7 @@ public class UserController {
         }
         return JsonUtils.objectToJson(result);
     }*/
-    //jsonp的第二种方法
+    //jsonp的第二种实现方法
     @RequestMapping(value = "/user/token/{token}", method = RequestMethod.GET)
     @ResponseBody
     public Object getUserByToken(@PathVariable String token, String callback) {

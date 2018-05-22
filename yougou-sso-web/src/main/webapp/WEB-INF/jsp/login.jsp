@@ -9,10 +9,11 @@
     <script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
 </head>
 <body>
+<br/>
 <div class="w">
     <div id="logo">
     	<a href="http://localhost:8082" clstag="passport|keycount|login|01">
-    		<img src="/images/taotao-logo.gif" alt="优购" width="170" height="60"/>
+            <img src="/images/yougou-logo.png" width="180" height="50" alt="优购商城"/>
     	</a><b></b>
    	</div>
 </div>

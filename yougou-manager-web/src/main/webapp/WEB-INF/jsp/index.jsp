@@ -41,6 +41,12 @@
 	         		<li data-options="attributes:{'url':'import-index'}">导入索引库</li>
 	         	</ul>
          	</li>
+         	<li>
+         		<span>报表管理</span>
+         		<ul>
+	         		<li data-options="attributes:{'url':'report'}">查看报表</li>
+	         	</ul>
+         	</li>
          </ul>
     </div>
     <div data-options="region:'center',title:''">

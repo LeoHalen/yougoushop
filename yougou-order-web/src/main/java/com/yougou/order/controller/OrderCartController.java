@@ -49,25 +49,14 @@ public class OrderCartController {
     public String showOrderCart(HttpServletRequest request) {
         //用户必须是登录状态
         //取用户id
-        TbUser user = (TbUser) request.getAttribute("user");
+        TbUser tbUser = (TbUser) request.getAttribute("user");
         //根据用户信息获取地址列表，使用静态数据
         //把收货地址列表获取传递给页面
-        //从cookie中获取购物车商品列表展示到页面
-        List<TbItem> cartItemList = this.getCartItemList(request);
+        //从redis中获取购物车商品列表展示到页面
+        List<TbItem> cartItemList = orderService.getCartItemList(tbUser);
         request.setAttribute("cartList", cartItemList);
         //返回逻辑视图
         return "order-cart";
-    }
-
-    private List<TbItem> getCartItemList(HttpServletRequest request) {
-        //从cookie中取购物车商品列表
-        String json = CookieUtils.getCookieValue(request, CART_KEY, true);
-        if (StringUtils.isBlank(json)) {
-            //如果没有内容，返回一个空的列表
-            return new ArrayList<>();
-        }
-        List<TbItem> itemList = JsonUtils.jsonToList(json, TbItem.class);
-        return itemList;
     }
 
     /**

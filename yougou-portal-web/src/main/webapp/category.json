@@ -1,0 +1,1383 @@
+{
+  "data": [
+    {
+      "u": "search.html?q=1.html",
+      "n": "<a href='search.html?q=1.html'>图书、音像、电子书刊</a>",
+      "i": [
+        {
+          "u": "search.html?q=电子书刊",
+          "n": "电子书刊",
+          "i": [
+            "search.html?q=电子书|电子书",
+            "search.html?q=网络原创|网络原创",
+            "search.html?q=数字杂志|数字杂志",
+            "search.html?q=多媒体图书|多媒体图书"
+          ]
+        },
+        {
+          "u": "search.html?q=音像",
+          "n": "音像",
+          "i": [
+            "search.html?q=音乐|音乐",
+            "search.html?q=影视|影视",
+            "search.html?q=教育音像|教育音像"
+          ]
+        },
+        {
+          "u": "search.html?q=英文原版",
+          "n": "英文原版",
+          "i": [
+            "search.html?q=少儿|少儿",
+            "search.html?q=商务投资|商务投资",
+            "search.html?q=英语学习与考试|英语学习与考试",
+            "search.html?q=小说|小说",
+            "search.html?q=传记|传记",
+            "search.html?q=励志|励志"
+          ]
+        },
+        {
+          "u": "search.html?q=18.html",
+          "n": "文艺",
+          "i": [
+            "search.html?q=小说|小说",
+            "search.html?q=文学|文学",
+            "search.html?q=青春文学|青春文学",
+            "search.html?q=传记|传记",
+            "search.html?q=艺术|艺术"
+          ]
+        },
+        {
+          "u": "search.html?q=少儿",
+          "n": "少儿",
+          "i": [
+            "search.html?q=少儿|少儿",
+            "search.html?q=0-2岁|0-2岁",
+            "search.html?q=3-6岁|3-6岁",
+            "search.html?q=7-10岁|7-10岁",
+            "search.html?q=11-14岁|11-14岁"
+          ]
+        },
+        {
+          "u": "search.html?q=人文社科",
+          "n": "人文社科",
+          "i": [
+            "search.html?q=历史|历史",
+            "search.html?q=哲学|哲学",
+            "search.html?q=国学|国学",
+            "search.html?q=政治/军事|政治/军事",
+            "search.html?q=法律|法律",
+            "search.html?q=宗教|宗教",
+            "search.html?q=心理学|心理学",
+            "search.html?q=文化|文化",
+            "search.html?q=社会科学|社会科学"
+          ]
+        },
+        {
+          "u": "search.html?q=经管励志",
+          "n": "经管励志",
+          "i": [
+            "search.html?q=经济|经济",
+            "search.html?q=金融与投资|金融与投资",
+            "search.html?q=管理|管理",
+            "search.html?q=励志与成功|励志与成功"
+          ]
+        },
+        {
+          "u": "search.html?q=生活",
+          "n": "生活",
+          "i": [
+            "search.html?q=生活|生活",
+            "search.html?q=健身与保健|健身与保健",
+            "search.html?q=家庭与育儿|家庭与育儿",
+            "search.html?q=旅游|旅游",
+            "search.html?q=动漫/幽默|动漫/幽默"
+          ]
+        },
+        {
+          "u": "search.html?q=科技",
+          "n": "科技",
+          "i": [
+            "search.html?q=科技|科技",
+            "search.html?q=工程|工程",
+            "search.html?q=建筑|建筑",
+            "search.html?q=医学|医学",
+            "search.html?q=科学与自然|科学与自然",
+            "search.html?q=计算机与互联网|计算机与互联网",
+            "search.html?q=体育/运动|体育/运动"
+          ]
+        },
+        {
+          "u": "search.html?q=教育",
+          "n": "教育",
+          "i": [
+            "search.html?q=教材教辅|教材教辅",
+            "search.html?q=教育与考试|教育与考试",
+            "search.html?q=外语学习|外语学习",
+            "search.html?q=新闻出版|新闻出版",
+            "search.html?q=语言文字|语言文字"
+          ]
+        },
+        {
+          "u": "search.html?q=港台图书",
+          "n": "港台图书",
+          "i": [
+            "search.html?q=艺术/设计/收藏|艺术/设计/收藏",
+            "search.html?q=经济管理|经济管理",
+            "search.html?q=文化/学术|文化/学术",
+            "search.html?q=少儿文学/国学|少儿文学/国学"
+          ]
+        },
+        {
+          "u": "search.html?q=其它",
+          "n": "其它",
+          "i": [
+            "search.html?q=工具书|工具书",
+            "search.html?q=影印版|影印版",
+            "search.html?q=套装书|套装书"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=家用电器",
+      "n": "<a href='search.html?q=家用电器'>家用电器</a>",
+      "i": [
+        {
+          "u": "search.html?q=大家电",
+          "n": "大 家 电",
+          "i": [
+            "search.html?q=平板电视|平板电视",
+            "search.html?q=空调|空调",
+            "search.html?q=冰箱|冰箱",
+            "search.html?q=洗衣机|洗衣机",
+            "search.html?q=家庭影院|家庭影院",
+            "search.html?q=DVD播放机|DVD播放机",
+            "search.html?q=迷你音响|迷你音响",
+            "search.html?q=烟机/灶具|烟机/灶具",
+            "search.html?q=热水器|热水器",
+            "search.html?q=消毒柜/洗碗机|消毒柜/洗碗机",
+            "search.html?q=酒柜/冰吧/冷柜|酒柜/冰吧/冷柜",
+            "search.html?q=家电配件|家电配件",
+            "search.html?q=家电下乡|家电下乡"
+          ]
+        },
+        {
+          "u": "search.html?q=生活电器",
+          "n": "生活电器",
+          "i": [
+            "search.html?电风扇|电风扇",
+            "search.html?冷风扇|冷风扇",
+            "search.html?净化器|净化器",
+            "search.html?饮水机|饮水机",
+            "search.html?净水设备|净水设备",
+            "search.html?挂烫机/熨斗|挂烫机/熨斗",
+            "search.html?吸尘器|吸尘器",
+            "search.html?电话机|电话机",
+            "search.html?插座|插座",
+            "search.html?收录/音机|收录/音机",
+            "search.html?清洁机|清洁机",
+            "search.html?加湿器|加湿器",
+            "search.html?除湿机|除湿机",
+            "search.html?取暖电器|取暖电器",
+            "search.html?其它生活电器|其它生活电器",
+            "search.html?扫地机器人|扫地机器人",
+            "search.html?干衣机|干衣机",
+            "search.html?生活电器配件|生活电器配件"
+          ]
+        },
+        {
+          "u": "search.html?q=108.html",
+          "n": "厨房电器",
+          "i": [
+            "search.html?q=料理/榨汁机|料理/榨汁机",
+            "search.html?q=豆浆机|豆浆机",
+            "search.html?q=电饭煲|电饭煲",
+            "search.html?q=电压力锅|电压力锅",
+            "search.html?q=面包机|面包机",
+            "search.html?q=咖啡机|咖啡机",
+            "search.html?q=微波炉|微波炉",
+            "search.html?q=电烤箱|电烤箱",
+            "search.html?q=电磁炉|电磁炉",
+            "search.html?q=电饼铛/烧烤盘|电饼铛/烧烤盘",
+            "search.html?q=煮蛋器|煮蛋器",
+            "search.html?q=酸奶机|酸奶机",
+            "search.html?q=电炖锅|电炖锅",
+            "search.html?q=电水壶/热水瓶|电水壶/热水瓶",
+            "search.html?q=多用途锅|多用途锅",
+            "search.html?q=果蔬解毒机|果蔬解毒机",
+            "search.html?q=其它厨房电器|其它厨房电器"
+          ]
+        },
+        {
+          "u": "search.html?q=个护健康",
+          "n": "个护健康",
+          "i": [
+            "search.html?q=剃须刀|剃须刀",
+            "search.html?q=剃/脱毛器|剃/脱毛器",
+            "search.html?q=口腔护理|口腔护理",
+            "search.html?q=电吹风|电吹风",
+            "search.html?q=美容器|美容器",
+            "search.html?q=美发器|美发器",
+            "search.html?q=按摩椅|按摩椅",
+            "search.html?q=按摩器|按摩器",
+            "search.html?q=足浴盆|足浴盆",
+            "search.html?q=血压计|血压计",
+            "search.html?q=健康秤/厨房秤|健康秤/厨房秤",
+            "search.html?q=血糖仪|血糖仪",
+            "search.html?q=体温计|体温计",
+            "search.html?q=计步器/脂肪检测仪|计步器/脂肪检测仪",
+            "search.html?q=其它健康电器|其它健康电器"
+          ]
+        },
+        {
+          "u": "search.html?q=五金家装",
+          "n": "五金家装",
+          "i": [
+            "search.html?q=电动工具|电动工具",
+            "search.html?q=手动工具|手动工具",
+            "search.html?q=仪器仪表|仪器仪表",
+            "search.html?q=浴霸/排气扇|浴霸/排气扇",
+            "search.html?q=灯具|灯具",
+            "search.html?q=LED灯|LED灯",
+            "search.html?q=洁身器|洁身器",
+            "search.html?q=水槽|水槽",
+            "search.html?q=龙头|龙头",
+            "search.html?q=淋浴花洒|淋浴花洒",
+            "search.html?q=厨卫五金|厨卫五金",
+            "search.html?q=家具五金|家具五金",
+            "search.html?q=门铃|门铃",
+            "search.html?q=电气开关|电气开关",
+            "search.html?q=插座|插座",
+            "search.html?q=电工电料|电工电料",
+            "search.html?q=监控安防|监控安防",
+            "search.html?q=电线/线缆|电线/线缆"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=161.html",
+      "n": "<a href='search.html?q=161.html'>电脑、办公</a>",
+      "i": [
+        {
+          "u": "search.html?电脑整机",
+          "n": "电脑整机",
+          "i": [
+            "search.html?q=笔记本|笔记本",
+            "search.html?q=超极本|超极本",
+            "search.html?q=游戏本|游戏本",
+            "search.html?q=平板电脑|平板电脑",
+            "search.html?q=平板电脑配件|平板电脑配件",
+            "search.html?q=台式机|台式机",
+            "search.html?q=服务器/工作站|服务器/工作站",
+            "search.html?q=笔记本配件|笔记本配件"
+          ]
+        },
+        {
+          "u": "search.html?q=电脑配件",
+          "n": "电脑配件",
+          "i": [
+            "search.html?q=CPU|CPU",
+            "search.html?q=主板|主板",
+            "search.html?q=显卡|显卡",
+            "search.html?q=硬盘|硬盘",
+            "search.html?q=SSD固态硬盘|SSD固态硬盘",
+            "search.html?q=内存|内存",
+            "search.html?q=机箱|机箱",
+            "search.html?q=电源|电源",
+            "search.html?q=显示器|显示器",
+            "search.html?q=刻录机/光驱|刻录机/光驱",
+            "search.html?q=散热器|散热器",
+            "search.html?q=声卡/扩展卡|声卡/扩展卡",
+            "search.html?q=装机配件|装机配件",
+            "search.html?q=组装电脑|组装电脑"
+          ]
+        },
+        {
+          "u": "search.html?q=外设产品",
+          "n": "外设产品",
+          "i": [
+            "search.html?q=移动硬盘|移动硬盘",
+            "search.html?q=U盘|U盘",
+            "search.html?q=鼠标|鼠标",
+            "search.html?q=键盘|键盘",
+            "search.html?q=鼠标垫|鼠标垫",
+            "search.html?q=摄像头|摄像头",
+            "search.html?q=手写板|手写板",
+            "search.html?q=外置盒|外置盒",
+            "search.html?q=插座|插座",
+            "search.html?q=线缆|线缆",
+            "search.html?q=UPS电源|UPS电源",
+            "search.html?q=电脑工具|电脑工具",
+            "search.html?q=游戏设备|游戏设备",
+            "search.html?q=电玩|电玩",
+            "search.html?q=电脑清洁|电脑清洁"
+          ]
+        },
+        {
+          "u": "search.html?q=网络产品",
+          "n": "网络产品",
+          "i": [
+            "search.html?q=路由器|路由器",
+            "search.html?q=网卡|网卡",
+            "search.html?q=交换机|交换机",
+            "search.html?q=网络存储|网络存储",
+            "search.html?q=4G/3G上网|4G/3G上网",
+            "search.html?q=网络盒子|网络盒子",
+            "search.html?q=网络配件|网络配件"
+          ]
+        },
+        {
+          "u": "search.html?q=办公设备",
+          "n": "办公设备",
+          "i": [
+            "search.html?q=投影机|投影机",
+            "search.html?q=投影配件|投影配件",
+            "search.html?q=多功能一体机|多功能一体机",
+            "search.html?q=打印机|打印机",
+            "search.html?q=传真设备|传真设备",
+            "search.html?q=验钞/点钞机|验钞/点钞机",
+            "search.html?q=扫描设备|扫描设备",
+            "search.html?q=复合机|复合机",
+            "search.html?q=碎纸机|碎纸机",
+            "search.html?q=考勤机|考勤机",
+            "search.html?q=墨粉|墨粉",
+            "search.html?q=收款/POS机|收款/POS机",
+            "search.html?q=会议音频视频|会议音频视频",
+            "search.html?q=保险柜|保险柜",
+            "search.html?q=装订/封装机|装订/封装机",
+            "search.html?q=安防监控|安防监控",
+            "search.html?q=办公家具|办公家具",
+            "search.html?q=白板|白板"
+          ]
+        },
+        {
+          "u": "search.html?q=文具/耗材",
+          "n": "文具/耗材",
+          "i": [
+            "search.html?q=硒鼓/墨粉|硒鼓/墨粉",
+            "search.html?q=墨盒|墨盒",
+            "search.html?q=色带|色带",
+            "search.html?q=纸类|纸类",
+            "search.html?q=办公文具|办公文具",
+            "search.html?q=学生文具|学生文具",
+            "search.html?q=文件管理|文件管理",
+            "search.html?q=财会用品|财会用品",
+            "search.html?q=本册/便签|本册/便签",
+            "search.html?q=计算器|计算器",
+            "search.html?q=激光笔|激光笔",
+            "search.html?q=笔类|笔类",
+            "search.html?q=画具画材|画具画材",
+            "search.html?q=刻录碟片/附件|刻录碟片/附件"
+          ]
+        },
+        {
+          "u": "search.html?q=服务产品",
+          "n": "服务产品",
+          "i": [
+            "search.html?q=上门服务|上门服务",
+            "search.html?q=远程服务|远程服务",
+            "search.html?q=电脑软件|电脑软件",
+            "search.html?q=京东服务|京东服务"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=249.html",
+      "n": "<a href='search.html?q=249.html'>个护化妆</a>",
+      "i": [
+        {
+          "u": "search.html?q=面部护肤",
+          "n": "面部护肤",
+          "i": [
+            "search.html?q=清洁|清洁",
+            "search.html?q=护肤|护肤",
+            "search.html?q=面膜|面膜",
+            "search.html?q=剃须|剃须",
+            "search.html?q=套装|套装"
+          ]
+        },
+        {
+          "u": "search.html?q=身体护肤",
+          "n": "身体护肤",
+          "i": [
+            "search.html?q=沐浴|沐浴",
+            "search.html?q=润肤|润肤",
+            "search.html?q=颈部|颈部",
+            "search.html?q=手足|手足",
+            "search.html?q=纤体塑形|纤体塑形",
+            "search.html?q=美胸|美胸",
+            "search.html?q=套装|套装"
+          ]
+        },
+        {
+          "u": "search.html?q=口腔护理",
+          "n": "口腔护理",
+          "i": [
+            "search.html?q=牙膏/牙粉|牙膏/牙粉",
+            "search.html?q=牙刷/牙线|牙刷/牙线",
+            "search.html?q=漱口水|漱口水",
+            "search.html?q=套装|套装"
+          ]
+        },
+        {
+          "u": "search.html?q=女性护理",
+          "n": "女性护理",
+          "i": [
+            "search.html?q=卫生巾|卫生巾",
+            "search.html?q=卫生护垫|卫生护垫",
+            "search.html?q=私密护理|私密护理",
+            "search.html?q=脱毛膏|脱毛膏"
+          ]
+        },
+        {
+          "u": "search.html?q=洗发护发",
+          "n": "洗发护发",
+          "i": [
+            "search.html?q=洗发|洗发",
+            "search.html?q=护发|护发",
+            "search.html?q=染发|染发",
+            "search.html?q=造型|造型",
+            "search.html?q=假发|假发",
+            "search.html?q=套装|套装"
+          ]
+        },
+        {
+          "u": "search.html?q=香水彩妆",
+          "n": "香水彩妆",
+          "i": [
+            "search.html?q=香水|香水",
+            "search.html?q=底妆|底妆",
+            "search.html?q=腮红|腮红",
+            "search.html?q=眼部|眼部",
+            "search.html?q=唇部|唇部",
+            "search.html?q=美甲|美甲",
+            "search.html?q=美容工具|美容工具",
+            "search.html?q=套装|套装"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=290.html",
+      "n": "<a href='search.html?q=290.html'>钟表</a>",
+      "i": [
+        {
+          "u": "search.html?q=钟表",
+          "n": "钟表",
+          "i": [
+            "search.html?q=男表|男表",
+            "search.html?q=女表|女表",
+            "search.html?q=儿童手表|儿童手表",
+            "search.html?q=座钟挂钟|座钟挂钟"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=296.html",
+      "n": "<a href='search.html?q=296.html'>母婴</a>",
+      "i": [
+        {
+          "u": "search.html?q=奶粉",
+          "n": "奶粉",
+          "i": [
+            "search.html?q=婴幼奶粉|婴幼奶粉",
+            "search.html?q=成人奶粉|成人奶粉"
+          ]
+        },
+        {
+          "u": "search.html?q=营养辅食",
+          "n": "营养辅食",
+          "i": [
+            "search.html?q=益生菌/初乳|益生菌/初乳",
+            "search.html?q=米粉/菜粉|米粉/菜粉",
+            "search.html?q=果泥/果汁|果泥/果汁",
+            "search.html?q=DHA|DHA",
+            "search.html?q=宝宝零食|宝宝零食",
+            "search.html?q=钙铁锌/维生素|钙铁锌/维生素",
+            "search.html?q=清火/开胃|清火/开胃",
+            "search.html?q=面条/粥|面条/粥"
+          ]
+        },
+        {
+          "u": "search.html?q=尿裤湿巾",
+          "n": "尿裤湿巾",
+          "i": [
+            "search.html?q=婴儿尿裤|婴儿尿裤",
+            "search.html?q=拉拉裤|拉拉裤",
+            "search.html?q=湿巾|湿巾",
+            "search.html?q=成人尿裤|成人尿裤"
+          ]
+        },
+        {
+          "u": "search.html?q=喂养用品",
+          "n": "喂养用品",
+          "i": [
+            "search.html?q=奶瓶奶嘴|奶瓶奶嘴",
+            "search.html?q=吸奶器|吸奶器",
+            "search.html?q=暖奶消毒|暖奶消毒",
+            "search.html?q=碗盘叉勺|碗盘叉勺",
+            "search.html?q=水壶/水杯|水壶/水杯",
+            "search.html?q=牙胶安抚|牙胶安抚",
+            "search.html?q=辅食料理机|辅食料理机"
+          ]
+        },
+        {
+          "u": "search.html?q=洗护用品",
+          "n": "洗护用品",
+          "i": [
+            "search.html?q=宝宝护肤|宝宝护肤",
+            "search.html?q=宝宝洗浴|宝宝洗浴",
+            "search.html?q=奶瓶清洗|奶瓶清洗",
+            "search.html?q=驱蚊防蚊|驱蚊防蚊",
+            "search.html?q=理发器|理发器",
+            "search.html?q=洗衣液/皂|洗衣液/皂",
+            "search.html?q=日常护理|日常护理",
+            "search.html?q=座便器|座便器"
+          ]
+        },
+        {
+          "u": "search.html?q=童车童床",
+          "n": "童车童床",
+          "i": [
+            "search.html?q=婴儿推车|婴儿推车",
+            "search.html?q=餐椅摇椅|餐椅摇椅",
+            "search.html?q=婴儿床|婴儿床",
+            "search.html?q=学步车|学步车",
+            "search.html?q=三轮车|三轮车",
+            "search.html?q=自行车|自行车",
+            "search.html?q=电动车|电动车",
+            "search.html?q=扭扭车|扭扭车",
+            "search.html?q=滑板车|滑板车"
+          ]
+        },
+        {
+          "u": "search.html?q=寝居服饰",
+          "n": "寝居服饰",
+          "i": [
+            "search.html?q=婴儿外出服|婴儿外出服",
+            "search.html?q=婴儿内衣|婴儿内衣",
+            "search.html?q=婴儿礼盒|婴儿礼盒",
+            "search.html?q=婴儿鞋帽袜|婴儿鞋帽袜",
+            "search.html?q=安全防护|安全防护",
+            "search.html?q=家居床品|家居床品"
+          ]
+        },
+        {
+          "u": "search.html?q=妈妈专区",
+          "n": "妈妈专区",
+          "i": [
+            "search.html?q=妈咪包/背婴带|妈咪包/背婴带",
+            "search.html?q=产后塑身|产后塑身",
+            "search.html?q=文胸/内裤|文胸/内裤",
+            "search.html?q=防辐射服|防辐射服",
+            "search.html?q=孕妇装|孕妇装",
+            "search.html?q=孕期营养|孕期营养",
+            "search.html?q=孕妈美容|孕妈美容",
+            "search.html?q=待产/新生|待产/新生",
+            "search.html?q=月子装|月子装"
+          ]
+        },
+        {
+          "u": "search.html?q=童装童鞋",
+          "n": "童装童鞋",
+          "i": [
+            "search.html?q=套装|套装",
+            "search.html?q=上衣|上衣",
+            "search.html?q=裤子|裤子",
+            "search.html?q=裙子|裙子",
+            "search.html?q=内衣/家居服|内衣/家居服",
+            "search.html?q=羽绒服/棉服|羽绒服/棉服",
+            "search.html?q=亲子装|亲子装",
+            "search.html?q=儿童配饰|儿童配饰",
+            "search.html?q=礼服/演出服|礼服/演出服",
+            "search.html?q=运动鞋|运动鞋",
+            "search.html?q=皮鞋/帆布鞋|皮鞋/帆布鞋",
+            "search.html?q=靴子|靴子",
+            "search.html?q=凉鞋|凉鞋",
+            "search.html?q=功能鞋|功能鞋",
+            "search.html?q=户外/运动服|户外/运动服"
+          ]
+        },
+        {
+          "u": "search.html?q=安全座椅",
+          "n": "安全座椅",
+          "i": [
+            "search.html?q=提篮式|提篮式",
+            "search.html?q=安全座椅|安全座椅",
+            "search.html?q=增高垫|增高垫"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=378.html",
+      "n": "<a href='search.html?q=378.html'>食品饮料、保健食品</a>",
+      "i": [
+        {
+          "u": "search.html?q=进口食品",
+          "n": "进口食品",
+          "i": [
+            "search.html?q=饼干蛋糕|饼干蛋糕",
+            "search.html?q=糖果/巧克力|糖果/巧克力",
+            "search.html?q=休闲零食|休闲零食",
+            "search.html?q=冲调饮品|冲调饮品",
+            "search.html?q=粮油调味|粮油调味",
+            "search.html?q=牛奶|牛奶"
+          ]
+        },
+        {
+          "u": "search.html?q=地方特产",
+          "n": "地方特产",
+          "i": [
+            "search.html?q=其他特产|其他特产",
+            "search.html?q=新疆|新疆",
+            "search.html?q=北京|北京",
+            "search.html?q=山西|山西",
+            "search.html?q=内蒙古|内蒙古",
+            "search.html?q=福建|福建",
+            "search.html?q=湖南|湖南",
+            "search.html?q=四川|四川",
+            "search.html?q=云南|云南",
+            "search.html?q=东北|东北"
+          ]
+        },
+        {
+          "u": "search.html?q=休闲食品",
+          "n": "休闲食品",
+          "i": [
+            "search.html?q=休闲零食|休闲零食",
+            "search.html?q=坚果炒货|坚果炒货",
+            "search.html?q=肉干肉脯|肉干肉脯",
+            "search.html?q=蜜饯果干|蜜饯果干",
+            "search.html?q=糖果/巧克力|糖果/巧克力",
+            "search.html?q=饼干蛋糕|饼干蛋糕",
+            "search.html?q=无糖食品|无糖食品"
+          ]
+        },
+        {
+          "u": "search.html?q=粮油调味",
+          "n": "粮油调味",
+          "i": [
+            "search.html?q=406.html|米面杂粮",
+            "search.html?q=407.html|食用油",
+            "search.html?q=408.html|调味品",
+            "search.html?q=409.html|南北干货",
+            "search.html?q=410.html|方便食品",
+            "search.html?q=411.html|有机食品"
+          ]
+        },
+        {
+          "u": "search.html?q=饮料冲调",
+          "n": "饮料冲调",
+          "i": [
+            "search.html?q=饮用水|饮用水",
+            "search.html?q=饮料|饮料",
+            "search.html?q=牛奶乳品|牛奶乳品",
+            "search.html?q=咖啡/奶茶|咖啡/奶茶",
+            "search.html?q=冲饮谷物|冲饮谷物",
+            "search.html?q=蜂蜜/柚子茶|蜂蜜/柚子茶",
+            "search.html?q=成人奶粉|成人奶粉"
+          ]
+        },
+        {
+          "u": "search.html?q=食品礼券",
+          "n": "食品礼券",
+          "i": [
+            "search.html?q=月饼|月饼",
+            "search.html?q=大闸蟹|大闸蟹",
+            "search.html?q=粽子|粽子",
+            "search.html?q=卡券|卡券"
+          ]
+        },
+        {
+          "u": "search.html?q=茗茶",
+          "n": "茗茶",
+          "i": [
+            "search.html?q=铁观音|铁观音",
+            "search.html?q=普洱|普洱",
+            "search.html?q=龙井|龙井",
+            "search.html?q=绿茶|绿茶",
+            "search.html?q=红茶|红茶",
+            "search.html?q=乌龙茶|乌龙茶",
+            "search.html?q=花草茶|花草茶",
+            "search.html?q=花果茶|花果茶",
+            "search.html?q=养生茶|养生茶",
+            "search.html?q=黑茶|黑茶",
+            "search.html?q=白茶|白茶",
+            "search.html?q=其它茶|其它茶"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=438.html",
+      "n": "<a href='search.html?q=438.html'>汽车用品</a>",
+      "i": [
+        {
+          "u": "search.html?q=维修保养",
+          "n": "维修保养",
+          "i": [
+            "search.html?q=润滑油|润滑油",
+            "search.html?q=添加剂|添加剂",
+            "search.html?q=防冻液|防冻液",
+            "search.html?q=滤清器|滤清器",
+            "search.html?q=火花塞|火花塞",
+            "search.html?q=雨刷|雨刷",
+            "search.html?q=车灯|车灯",
+            "search.html?q=后视镜|后视镜",
+            "search.html?q=轮胎|轮胎",
+            "search.html?q=轮毂|轮毂",
+            "search.html?q=刹车片/盘|刹车片/盘",
+            "search.html?q=喇叭/皮带|喇叭/皮带",
+            "search.html?q=蓄电池|蓄电池",
+            "search.html?q=底盘装甲/护板|底盘装甲/护板",
+            "search.html?q=贴膜|贴膜",
+            "search.html?q=汽修工具|汽修工具"
+          ]
+        },
+        {
+          "u": "search.html?q=车载电器",
+          "n": "车载电器",
+          "i": [
+            "search.html?q=导航仪|导航仪",
+            "search.html?q=安全预警仪|安全预警仪",
+            "search.html?q=行车记录仪|行车记录仪",
+            "search.html?q=倒车雷达|倒车雷达",
+            "search.html?q=蓝牙设备|蓝牙设备",
+            "search.html?q=时尚影音|时尚影音",
+            "search.html?q=净化器|净化器",
+            "search.html?q=电源|电源",
+            "search.html?q=冰箱|冰箱",
+            "search.html?q=吸尘器|吸尘器"
+          ]
+        },
+        {
+          "u": "search.html?q=美容清洗",
+          "n": "美容清洗",
+          "i": [
+            "search.html?q=车蜡|车蜡",
+            "search.html?q=补漆笔|补漆笔",
+            "search.html?q=玻璃水|玻璃水",
+            "search.html?q=清洁剂|清洁剂",
+            "search.html?q=洗车工具|洗车工具",
+            "search.html?q=洗车配件|洗车配件"
+          ]
+        },
+        {
+          "u": "search.html?q=汽车装饰",
+          "n": "汽车装饰",
+          "i": [
+            "search.html?q=脚垫|脚垫",
+            "search.html?q=座垫|座垫",
+            "search.html?q=座套|座套",
+            "search.html?q=后备箱垫|后备箱垫",
+            "search.html?q=头枕腰靠|头枕腰靠",
+            "search.html?q=香水|香水",
+            "search.html?q=空气净化|空气净化",
+            "search.html?q=车内饰品|车内饰品",
+            "search.html?q=功能小件|功能小件",
+            "search.html?q=车身装饰件|车身装饰件",
+            "search.html?q=车衣|车衣"
+          ]
+        },
+        {
+          "u": "search.html?q=安全自驾",
+          "n": "安全自驾",
+          "i": [
+            "search.html?q=安全座椅|安全座椅",
+            "search.html?q=胎压充气|胎压充气",
+            "search.html?q=防盗设备|防盗设备",
+            "search.html?q=应急救援|应急救援",
+            "search.html?q=保温箱|保温箱",
+            "search.html?q=储物箱|储物箱",
+            "search.html?q=自驾野营|自驾野营",
+            "search.html?q=摩托车装备|摩托车装备"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=495.html",
+      "n": "<a href='search.html?q=495.html'>玩具乐器</a>",
+      "i": [
+        {
+          "u": "search.html?q=适用年龄",
+          "n": "适用年龄",
+          "i": [
+            "search.html?q=0-6个月|0-6个月",
+            "search.html?q=6-12个月|6-12个月",
+            "search.html?q=1-3岁|1-3岁",
+            "search.html?q=3-6岁|3-6岁",
+            "search.html?q=6-14岁|6-14岁",
+            "search.html?q=14岁以上|14岁以上"
+          ]
+        },
+        {
+          "u": "search.html?q=遥控/电动",
+          "n": "遥控/电动",
+          "i": [
+            "search.html?q=遥控车|遥控车",
+            "search.html?q=遥控飞机|遥控飞机",
+            "search.html?q=遥控船|遥控船",
+            "search.html?q=机器人/电动|机器人/电动",
+            "search.html?q=轨道/助力|轨道/助力"
+          ]
+        },
+        {
+          "u": "search.html?q=毛绒布艺",
+          "n": "毛绒布艺",
+          "i": [
+            "search.html?q=毛绒/布艺|毛绒/布艺",
+            "search.html?q=靠垫/抱枕|靠垫/抱枕"
+          ]
+        },
+        {
+          "u": "search.html?q=娃娃玩具",
+          "n": "娃娃玩具",
+          "i": [
+            "search.html?q=芭比娃娃|芭比娃娃",
+            "search.html?q=卡通娃娃|卡通娃娃",
+            "search.html?q=智能娃娃|智能娃娃"
+          ]
+        },
+        {
+          "u": "search.html?q=模型玩具",
+          "n": "模型玩具",
+          "i": [
+            "search.html?q=仿真模型|仿真模型",
+            "search.html?q=拼插模型|拼插模型",
+            "search.html?q=收藏爱好|收藏爱好"
+          ]
+        },
+        {
+          "u": "search.html?q=健身玩具",
+          "n": "健身玩具",
+          "i": [
+            "search.html?q=炫舞毯|炫舞毯",
+            "search.html?q=爬行垫/毯|爬行垫/毯",
+            "search.html?q=户外玩具|户外玩具",
+            "search.html?q=戏水玩|戏水玩具"
+          ]
+        },
+        {
+          "u": "search.html?q=动漫玩具",
+          "n": "动漫玩具",
+          "i": [
+            "search.html?q=电影周边|电影周边",
+            "search.html?q=卡通周边|卡通周边",
+            "search.html?q=网游周边|网游周边"
+          ]
+        },
+        {
+          "u": "search.html?q=益智玩具",
+          "n": "益智玩具",
+          "i": [
+            "search.html?q=摇铃/床铃|摇铃/床铃",
+            "search.html?q=健身架|健身架",
+            "search.html?q=早教启智|早教启智",
+            "search.html?q=拖拉玩具|拖拉玩具"
+          ]
+        },
+        {
+          "u": "search.html?q=积木拼插",
+          "n": "积木拼插",
+          "i": [
+            "search.html?q=积木|积木",
+            "search.html?q=拼图|拼图",
+            "search.html?q=磁力棒|磁力棒",
+            "search.html?q=立体拼插|立体拼插"
+          ]
+        },
+        {
+          "u": "search.html?q=DIY玩具",
+          "n": "DIY玩具",
+          "i": [
+            "search.html?q=手工彩泥|手工彩泥",
+            "search.html?q=绘画工具|绘画工具",
+            "search.html?q=情景玩具|情景玩具"
+          ]
+        },
+        {
+          "u": "search.html?q=创意减压",
+          "n": "创意减压",
+          "i": [
+            "search.html?q=减压玩具|减压玩具",
+            "search.html?q=创意玩具|创意玩具"
+          ]
+        },
+        {
+          "u": "search.html?q=乐器相关",
+          "n": "乐器相关",
+          "i": [
+            "search.html?q=钢琴|钢琴",
+            "search.html?q=电子琴|电子琴",
+            "search.html?q=手风琴|手风琴",
+            "search.html?q=吉他/贝斯|吉他/贝斯",
+            "search.html?q=民族管弦乐器|民族管弦乐器",
+            "search.html?q=西洋管弦乐|西洋管弦乐",
+            "search.html?q=口琴/口风琴/竖笛|口琴/口风琴/竖笛",
+            "search.html?q=西洋打击乐器|西洋打击乐器",
+            "search.html?q=各式乐器配件|各式乐器配件",
+            "search.html?q=电脑音乐|电脑音乐",
+            "search.html?q=工艺礼品乐器|工艺礼品乐器"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=558.html",
+      "n": "<a href='search.html?q=558.html'>手机</a>",
+      "i": [
+        {
+          "u": "search.html?q=手机通讯",
+          "n": "手机通讯",
+          "i": [
+            "search.html?q=手机|手机",
+            "search.html?q=对讲机|对讲机"
+          ]
+        },
+        {
+          "u": "search.html?q=运营商",
+          "n": "运营商",
+          "i": [
+            "search.html?q=购机送费|购机送费",
+            "search.html?q=“0”元购机|“0”元购机",
+            "search.html?q=选号中心|选号中心",
+            "search.html?q=选号入|选号入网"
+          ]
+        },
+        {
+          "u": "search.html?q=手机配件",
+          "n": "手机配件",
+          "i": [
+            "search.html?q=手机电池|手机电池",
+            "search.html?q=蓝牙耳机|蓝牙耳机",
+            "search.html?q=充电器/数据线|充电器/数据线",
+            "search.html?q=手机耳机|手机耳机",
+            "search.html?q=手机贴膜|手机贴膜",
+            "search.html?q=手机存储卡|手机存储卡",
+            "search.html?q=手机保护套|手机保护套",
+            "search.html?q=车载配件|车载配件",
+            "search.html?q=iPhone 配件|iPhone 配件",
+            "search.html?q=创意配件|创意配件",
+            "search.html?q=便携/无线音响|便携/无线音响",
+            "search.html?q=手机饰品|手机饰品"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=580.html",
+      "n": "<a href='search.html?q=580.html'>数码</a>",
+      "i": [
+        {
+          "u": "search.html?q=摄影摄像",
+          "n": "摄影摄像",
+          "i": [
+            "search.html?q=数码相机|数码相机",
+            "search.html?q=单电/微单相机|单电/微单相机",
+            "search.html?q=单反相机|单反相机",
+            "search.html?q=摄像机|摄像机",
+            "search.html?q=拍立得|拍立得",
+            "search.html?q=运动相机|运动相机",
+            "search.html?q=镜头|镜头",
+            "search.html?q=户外器材|户外器材",
+            "search.html?q=影棚器材|影棚器材"
+          ]
+        },
+        {
+          "u": "search.html?q=数码配件",
+          "n": "数码配件",
+          "i": [
+            "search.html?q=存储卡|存储卡",
+            "search.html?q=读卡器|读卡器",
+            "search.html?q=滤镜|滤镜",
+            "search.html?q=闪光灯/手柄|闪光灯/手柄",
+            "search.html?q=相机包|相机包",
+            "search.html?q=三脚架/云台|三脚架/云台",
+            "search.html?q=相机清洁|相机清洁",
+            "search.html?q=相机贴膜|相机贴膜",
+            "search.html?q=机身附件|机身附件",
+            "search.html?q=镜头附件|镜头附件",
+            "search.html?q=电池/充电器|电池/充电器",
+            "search.html?q=移动电源|移动电源"
+          ]
+        },
+        {
+          "u": "search.html?q=智能设备",
+          "n": "智能设备",
+          "i": [
+            "search.html?q=智能手环|智能手环",
+            "search.html?q=智能手表|智能手表",
+            "search.html?q=智能眼镜|智能眼镜",
+            "search.html?q=运动跟踪器|运动跟踪器",
+            "search.html?q=健康监测|健康监测",
+            "search.html?q=智能配饰|智能配饰",
+            "search.html?q=智能家居|智能家居",
+            "search.html?q=体感车|体感车",
+            "search.html?q=其他配件|其他配件"
+          ]
+        },
+        {
+          "u": "search.html?q=时尚影音",
+          "n": "时尚影音",
+          "i": [
+            "search.html?q=MP3/MP4|MP3/MP4",
+            "search.html?q=智能设备|智能设备",
+            "search.html?q=耳机/耳麦|耳机/耳麦",
+            "search.html?q=音箱|音箱",
+            "search.html?q=高清播放器|高清播放器",
+            "search.html?q=MP3/MP4配件|MP3/MP4配件",
+            "search.html?q=麦克风|麦克风",
+            "search.html?q=专业音频|专业音频",
+            "search.html?q=数码相框|数码相框",
+            "search.html?q=苹果配件|苹果配件"
+          ]
+        },
+        {
+          "u": "search.html?q=电子教育",
+          "n": "电子教育",
+          "i": [
+            "search.html?q=电子词典|电子词典",
+            "search.html?q=电纸书|电纸书",
+            "search.html?q=录音笔|录音笔",
+            "search.html?q=复读机|复读机",
+            "search.html?q=点读机/笔|点读机/笔",
+            "search.html?q=学生平板|学生平板",
+            "search.html?q=早教机|早教机"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=633.html",
+      "n": "<a href='search.html?q=633.html'>家居家装</a>",
+      "i": [
+        {
+          "u": "search.html?q=家纺",
+          "n": "家纺",
+          "i": [
+            "search.html?q=床品套件|床品套件",
+            "search.html?q=被子|被子",
+            "search.html?q=枕芯|枕芯",
+            "search.html?q=床单被罩|床单被罩",
+            "search.html?q=毯子|毯子",
+            "search.html?q=床垫/床褥|床垫/床褥",
+            "search.html?q=蚊帐|蚊帐",
+            "search.html?q=抱枕靠垫|抱枕靠垫",
+            "search.html?q=毛巾浴巾|毛巾浴巾",
+            "search.html?q=电热毯|电热毯",
+            "search.html?q=窗帘/窗纱|窗帘/窗纱",
+            "search.html?q=布艺软饰|布艺软饰",
+            "search.html?q=凉席|凉席"
+          ]
+        },
+        {
+          "u": "search.html?q=灯具",
+          "n": "灯具",
+          "i": [
+            "search.html?q=台灯|台灯",
+            "search.html?q=节能灯|节能灯",
+            "search.html?q=装饰灯|装饰灯",
+            "search.html?q=落地灯|落地灯",
+            "search.html?q=应急灯/手电|应急灯/手电",
+            "search.html?q=LED灯|LED灯",
+            "search.html?q=吸顶灯|吸顶灯",
+            "search.html?q=五金电器|五金电器",
+            "search.html?q=筒灯射灯|筒灯射灯",
+            "search.html?q=吊灯|吊灯",
+            "search.html?q=氛围照明|氛围照明"
+          ]
+        },
+        {
+          "u": "search.html?q=生活日用",
+          "n": "生活日用",
+          "i": [
+            "search.html?q=收纳用品|收纳用品",
+            "search.html?q=雨伞雨具|雨伞雨具",
+            "search.html?q=浴室用品|浴室用品",
+            "search.html?q=缝纫/针织用品|缝纫/针织用品",
+            "search.html?q=洗晒/熨烫|洗晒/熨烫",
+            "search.html?q=净化除味|净化除味"
+          ]
+        },
+        {
+          "u": "search.html?q=家装软饰",
+          "n": "家装软饰",
+          "i": [
+            "search.html?q=桌布/罩件|桌布/罩件",
+            "search.html?q=地毯地垫|地毯地垫",
+            "search.html?q=沙发垫套/椅垫|沙发垫套/椅垫",
+            "search.html?q=相框/照片墙|相框/照片墙",
+            "search.html?q=装饰字画|装饰字画",
+            "search.html?q=节庆饰品|节庆饰品",
+            "search.html?q=手工/十字绣|手工/十字绣",
+            "search.html?q=装饰摆件|装饰摆件",
+            "search.html?q=保暖防护|保暖防护",
+            "search.html?q=帘艺隔断|帘艺隔断",
+            "search.html?q=墙贴/装饰贴|墙贴/装饰贴",
+            "search.html?q=钟饰|钟饰",
+            "search.html?q=花瓶花艺|花瓶花艺",
+            "search.html?q=香薰蜡烛|香薰蜡烛",
+            "search.html?q=创意家|创意家居"
+          ]
+        },
+        {
+          "u": "search.html?q=清洁用品",
+          "n": "清洁用品",
+          "i": [
+            "search.html?q=纸品湿巾|纸品湿巾",
+            "search.html?q=衣物清洁|衣物清洁",
+            "search.html?q=清洁工具|清洁工具",
+            "search.html?q=驱虫用品|驱虫用品",
+            "search.html?q=家庭清洁|家庭清洁",
+            "search.html?q=皮具护理|皮具护理",
+            "search.html?q=一次性用品|一次性用品"
+          ]
+        },
+        {
+          "u": "search.html?q=宠物生活",
+          "n": "宠物生活",
+          "i": [
+            "search.html?q=宠物主粮|宠物主粮",
+            "search.html?q=宠物零食|宠物零食",
+            "search.html?q=医疗保健|医疗保健",
+            "search.html?q=家居日用|家居日用",
+            "search.html?q=宠物玩具|宠物玩具",
+            "search.html?q=出行装备|出行装备",
+            "search.html?q=洗护美容|洗护美容"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=699.html",
+      "n": "<a href='search.html?q=699.html'>厨具</a>",
+      "i": [
+        {
+          "u": "search.html?q=烹饪锅具",
+          "n": "烹饪锅具",
+          "i": [
+            "search.html?q=炒锅|炒锅",
+            "search.html?q=煎锅|煎锅",
+            "search.html?q=压力锅|压力锅",
+            "search.html?q=蒸锅|蒸锅",
+            "search.html?q=汤锅|汤锅",
+            "search.html?q=奶锅|奶锅",
+            "search.html?q=锅具套装|锅具套装",
+            "search.html?q=煲类|煲类",
+            "search.html?q=水壶|水壶",
+            "search.html?q=火锅|火锅"
+          ]
+        },
+        {
+          "u": "search.html?q=刀剪菜板",
+          "n": "刀剪菜板",
+          "i": [
+            "search.html?q=菜刀|菜刀",
+            "search.html?q=剪刀|剪刀",
+            "search.html?q=刀具套装|刀具套装",
+            "search.html?q=砧板|砧板",
+            "search.html?q=瓜果刀/刨|瓜果刀/刨",
+            "search.html?q=多功能刀|多功能刀"
+          ]
+        },
+        {
+          "u": "search.html?q=厨房配件",
+          "n": "厨房配件",
+          "i": [
+            "search.html?q=保鲜盒|保鲜盒",
+            "search.html?q=烘焙/烧烤|烘焙/烧烤",
+            "search.html?q=饭盒/提锅|饭盒/提锅",
+            "search.html?q=储物/置物架|储物/置物架",
+            "search.html?q=厨房DIY/小工具|厨房DIY/小工具"
+          ]
+        },
+        {
+          "u": "search.html?q=水具酒具",
+          "n": "水具酒具",
+          "i": [
+            "search.html?q=塑料杯|塑料杯",
+            "search.html?q=运动水壶|运动水壶",
+            "search.html?q=玻璃杯|玻璃杯",
+            "search.html?q=陶瓷/马克杯|陶瓷/马克杯",
+            "search.html?q=保温杯|保温杯",
+            "search.html?q=保温壶|保温壶",
+            "search.html?q=酒杯/酒具|酒杯/酒具",
+            "search.html?q=杯具套|杯具套装"
+          ]
+        },
+        {
+          "u": "search.html?q=餐具",
+          "n": "餐具",
+          "i": [
+            "search.html?q=餐具套装|餐具套装",
+            "search.html?q=碗/碟/盘|碗/碟/盘",
+            "search.html?q=筷勺/刀叉|筷勺/刀叉",
+            "search.html?q=一次性用品|一次性用品",
+            "search.html?q=果盘/果篮|果盘/果篮"
+          ]
+        },
+        {
+          "u": "search.html?q=茶具/咖啡具",
+          "n": "茶具/咖啡具",
+          "i": [
+            "search.html?q=740.html|整套茶具",
+            "search.html?q=741.html|茶杯",
+            "search.html?q=742.html|茶壶",
+            "search.html?q=743.html|茶盘茶托",
+            "search.html?q=744.html|茶叶罐",
+            "search.html?q=745.html|茶具配件",
+            "search.html?q=746.html|茶宠摆件",
+            "search.html?q=747.html|咖啡具",
+            "search.html?q=748.html|其他"
+          ]
+        }
+      ]
+    },
+    {
+      "u": "search.html?q=749.html",
+      "n": "<a href='search.html?q=749.html'>服饰内衣</a>",
+      "i": [
+        {
+          "u": "search.html?q=女装",
+          "n": "女装",
+          "i": [
+            "search.html?q=T恤|T恤",
+            "search.html?q=衬衫|衬衫",
+            "search.html?q=针织衫|针织衫",
+            "search.html?q=雪纺衫|雪纺衫",
+            "search.html?q=卫衣|卫衣",
+            "search.html?q=马甲|马甲",
+            "search.html?q=连衣裙|连衣裙",
+            "search.html?q=半身裙|半身裙",
+            "search.html?q=牛仔裤|牛仔裤",
+            "search.html?q=休闲裤|休闲裤",
+            "search.html?q=打底裤|打底裤",
+            "search.html?q=正装裤|正装裤",
+            "search.html?q=小西装|小西装",
+            "search.html?q=短外套|短外套",
+            "search.html?q=风衣|风衣",
+            "search.html?q=毛呢大衣|毛呢大衣",
+            "search.html?q=真皮皮衣|真皮皮衣",
+            "search.html?q=棉服|棉服",
+            "search.html?q=羽绒服|羽绒服",
+            "search.html?q=大码女装|大码女装",
+            "search.html?q=中老年女装|中老年女装",
+            "search.html?q=婚纱|婚纱",
+            "search.html?q=打底衫|打底衫",
+            "search.html?q=旗袍/唐装|旗袍/唐装",
+            "search.html?q=加绒裤|加绒裤",
+            "search.html?q=吊带/背心|吊带/背心",
+            "search.html?q=羊绒衫|羊绒衫",
+            "search.html?q=短裤|短裤",
+            "search.html?q=皮草|皮草",
+            "search.html?q=礼服|礼服",
+            "search.html?q=仿皮皮衣|仿皮皮衣",
+            "search.html?q=羊毛衫|羊毛衫",
+            "search.html?q=设计师/潮牌|设计师/潮牌"
+          ]
+        },
+        {
+          "u": "search.html?q=男装",
+          "n": "男装",
+          "i": [
+            "search.html?q=衬衫|衬衫",
+            "search.html?q=T恤|T恤",
+            "search.html?q=POLO衫|POLO衫",
+            "search.html?q=针织衫|针织衫",
+            "search.html?q=羊绒衫|羊绒衫",
+            "search.html?q=卫衣|卫衣",
+            "search.html?q=马甲/背心|马甲/背心",
+            "search.html?q=夹克|夹克",
+            "search.html?q=风衣|风衣",
+            "search.html?q=毛呢大衣|毛呢大衣",
+            "search.html?q=仿皮皮衣|仿皮皮衣",
+            "search.html?q=西服|西服",
+            "search.html?q=棉服|棉服",
+            "search.html?q=羽绒服|羽绒服",
+            "search.html?q=牛仔裤|牛仔裤",
+            "search.html?q=休闲裤|休闲裤",
+            "search.html?q=西裤|西裤",
+            "search.html?q=西服套装|西服套装",
+            "search.html?q=大码男装|大码男装",
+            "search.html?q=中老年男装|中老年男装",
+            "search.html?q=唐装/中山装|唐装/中山装",
+            "search.html?q=工装|工装",
+            "search.html?q=真皮皮衣|真皮皮衣",
+            "search.html?q=加绒裤|加绒裤",
+            "search.html?q=卫裤/运动裤|卫裤/运动裤",
+            "search.html?q=短裤|短裤",
+            "search.html?q=设计师/潮牌|设计师/潮牌",
+            "search.html?q=羊毛衫|羊毛衫"
+          ]
+        },
+        {
+          "u": "search.html?q=内衣",
+          "n": "内衣",
+          "i": [
+            "search.html?q=文胸|文胸",
+            "search.html?q=女式内裤|女式内裤",
+            "search.html?q=男式内裤|男式内裤",
+            "search.html?q=睡衣/家居服|睡衣/家居服",
+            "search.html?q=塑身美体|塑身美体",
+            "search.html?q=泳衣|泳衣",
+            "search.html?q=吊带/背心|吊带/背心",
+            "search.html?q=抹胸|抹胸",
+            "search.html?q=连裤袜/丝袜|连裤袜/丝袜",
+            "search.html?q=美腿袜|美腿袜",
+            "search.html?q=商务男袜|商务男袜",
+            "search.html?q=保暖内衣|保暖内衣",
+            "search.html?q=情侣睡衣|情侣睡衣",
+            "search.html?q=文胸套装|文胸套装",
+            "search.html?q=少女文胸|少女文胸",
+            "search.html?q=休闲棉袜|休闲棉袜",
+            "search.html?q=大码内衣|大码内衣",
+            "search.html?q=内衣配件|内衣配件",
+            "search.html?q=打底裤袜|打底裤袜",
+            "search.html?q=打底衫|打底衫",
+            "search.html?q=秋衣秋裤|秋衣秋裤",
+            "search.html?q=情趣内衣|情趣内衣"
+          ]
+        },
+        {
+          "u": "search.html?q=服饰配件",
+          "n": "服饰配件",
+          "i": [
+            "search.html?q=太阳镜|太阳镜",
+            "search.html?q=光学镜架/镜片|光学镜架/镜片",
+            "search.html?q=围巾/手套/帽子套装|围巾/手套/帽子套装",
+            "search.html?q=袖扣|袖扣",
+            "search.html?q=棒球帽|棒球帽",
+            "search.html?q=毛线帽|毛线帽",
+            "search.html?q=遮阳帽|遮阳帽",
+            "search.html?q=老花镜|老花镜",
+            "search.html?q=装饰眼镜|装饰眼镜",
+            "search.html?q=防辐射眼镜|防辐射眼镜",
+            "search.html?q=游泳镜|游泳镜",
+            "search.html?q=女士丝巾/围巾/披肩|女士丝巾/围巾/披肩",
+            "search.html?q=男士丝巾/围巾|男士丝巾/围巾",
+            "search.html?q=鸭舌帽|鸭舌帽",
+            "search.html?q=贝雷帽|贝雷帽",
+            "search.html?q=礼帽|礼帽",
+            "search.html?q=真皮手套|真皮手套",
+            "search.html?q=毛线手套|毛线手套",
+            "search.html?q=防晒手套|防晒手套",
+            "search.html?q=男士腰带/礼盒|男士腰带/礼盒",
+            "search.html?q=女士腰带/礼盒|女士腰带/礼盒",
+            "search.html?q=钥匙扣|钥匙扣",
+            "search.html?q=遮阳伞/雨伞|遮阳伞/雨伞",
+            "search.html?q=口罩|口罩",
+            "search.html?q=耳罩/耳包|耳罩/耳包",
+            "search.html?q=假领|假领",
+            "search.html?q=毛线/布面料|毛线/布面料",
+            "search.html?q=领带/领结/领带夹|领带/领结/领带夹"
+          ]
+        }
+      ]
+    }
+  ]
+}

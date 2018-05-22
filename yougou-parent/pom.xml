@@ -17,7 +17,8 @@
     <mybatis.paginator.version>1.2.15</mybatis.paginator.version>
     <mysql.version>5.1.32</mysql.version>
     <slf4j.version>1.6.4</slf4j.version>
-    <jackson.version>2.4.2</jackson.version>
+    <jackson.version>2.9.4</jackson.version>
+    <ali-fastjson.version>1.2.47</ali-fastjson.version>
     <druid.version>1.0.9</druid.version>
     <httpclient.version>4.3.5</httpclient.version>
     <jstl.version>1.2</jstl.version>
@@ -70,6 +71,13 @@
         <artifactId>jackson-databind</artifactId>
         <version>${jackson.version}</version>
       </dependency>
+      <!-- com.alibaba.fastjson -->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${ali-fastjson.version}</version>
+      </dependency>
+
       <!-- httpclient -->
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>

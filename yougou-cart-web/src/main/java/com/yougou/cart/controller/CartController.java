@@ -1,5 +1,7 @@
 package com.yougou.cart.controller;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.yougou.common.pojo.YougouResult;
 import com.yougou.common.utils.CookieUtils;
 import com.yougou.common.utils.HttpClientUtil;
@@ -11,14 +13,14 @@ import com.yougou.service.ItemService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,6 +51,8 @@ public class CartController {
     private String TOKEN_KEY;//token在cookie中保存的key
     @Value("${REDIS_CART_EXPIRE}")
     private Integer REDIS_CART_EXPIRE;//redis购物车商品的有效期,默认为30天s
+    @Value("${USER_SESSION}")
+    private String USER_SESSION;
 
     @Autowired
     private ItemService itemService;
@@ -176,7 +180,6 @@ public class CartController {
     @RequestMapping("/cart/delete/{itemId}")
     public String deleteCartItem(@PathVariable Long itemId,
                                  HttpServletRequest request,
-
                                  HttpServletResponse response) {
         //跨域请求获取用户信息
         YougouResult result = getUserInfoJsonp(request);
@@ -194,6 +197,55 @@ public class CartController {
         saveCartItemList(request, response, cartItemList, result);
         //重定向到购物车列表页面
         return "redirect:/cart/cart.html";
+    }
+    @RequestMapping(value = "/cart/synch/{token}",
+            method = RequestMethod.POST,
+            produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @ResponseBody
+    public YougouResult synchronousCartItem(@PathVariable String token,
+                                            @RequestBody String cookieCartJson)
+            throws UnsupportedEncodingException {
+        cookieCartJson = URLDecoder.decode(cookieCartJson, "utf-8");
+        cookieCartJson = StringUtils.substringAfter(cookieCartJson, "data=");
+        String json = jedisClient.get(USER_SESSION + ":" + token);
+        if ( StringUtils.isBlank(json) ) {
+            return YougouResult.build(400, "用户登录异常！");
+        }
+        //把json转换成User对象
+        TbUser tbUser = JsonUtils.jsonToPojo(json, TbUser.class);
+        //从cookie中获得的购物车商品列表
+        List<TbItem> cookieItemList = JsonUtils.jsonToList(cookieCartJson, TbItem.class);
+        //查询redis获取购物车商品列表
+        String redisCartJson = jedisClient.get(REDIS_CART_KEY + ":" + tbUser.getId() + ":base");
+        //从redis中获得的购物车商品列表
+        List<TbItem> redisItemList = JsonUtils.jsonToList(redisCartJson, TbItem.class);
+        //循环判断cookie中商品是否存在于redis
+        int i=0;
+        for (i=0;i<cookieItemList.size();i++){
+            TbItem item = cookieItemList.get(i);
+            Long itemId = item.getId();
+            //判断商品在redis购物车中是否存在
+            boolean flag = false;
+            for (TbItem tbItem : redisItemList) {
+                if (tbItem.getId() == itemId.longValue()) {
+                    //如果存在覆盖
+                    tbItem.setNum(item.getNum());
+                    flag = true;
+                    break;
+                }
+            }
+            //如果不存在，添加一个新的商品
+            if (!flag) {
+                //把商品添加到购物车
+                redisItemList.add(item);
+            }
+
+        }
+        //把购物车列表写入redis
+        jedisClient.set(REDIS_CART_KEY + ":" + tbUser.getId() + ":base", JsonUtils.objectToJson(redisItemList));
+        //设置key的过期时间
+        jedisClient.expire(REDIS_CART_KEY + ":" + tbUser.getId() + ":base", REDIS_CART_EXPIRE);
+        return YougouResult.ok();
     }
 
     /**
