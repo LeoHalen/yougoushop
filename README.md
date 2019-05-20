@@ -1,4 +1,4 @@
-# taotaoshop.github.io
+# taotaoshop
 淘淘商城IDEA开发版(商城名更为优购商城)
 =
 ## 关于淘淘商城 
